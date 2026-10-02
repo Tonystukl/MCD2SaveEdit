@@ -17,6 +17,7 @@ public static class Theme
     {
         root.BackColor = root is TextBoxBase or ListBox or ListView or NumericUpDown or ComboBox ? Surface : Background;
         root.ForeColor = root.Tag as string == "muted" ? Muted : Text;
+        if (root is Label label) label.UseMnemonic = false;
         if (root is ComboBox combo)
         {
             combo.FlatStyle = FlatStyle.Flat;

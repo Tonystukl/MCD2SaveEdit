@@ -2,7 +2,7 @@
 
 A native Windows save editor for Minecraft Dungeons II, with an illustrated inventory, four-piece armor loadout, enchantment editing, and interactive Overworld and Sift maps. Built with C# and Windows Forms. Runs locally; the application has no network features.
 
-**Version 0.3.0 preview.** Inventory and Xbox save transactions have automated coverage. Quest completion and local fog alignment are experimental and have not been verified in a live game session.
+**Version 0.3.1.** Inventory and Xbox save transactions have automated coverage. Quest completion and local fog alignment are experimental and have not been verified in a live game session.
 
 ## Download
 
@@ -35,7 +35,7 @@ Get **MCD2SaveEdit.exe** or the Windows ZIP from the [latest release](https://gi
 
 ## Quests and maps
 
-Open **Quests & Map**, then choose **Overworld** or **The Sift**. Click a yellow/blue quest marker or choose a quest in the searchable list. Details show its saved state, description, objectives and rewards.
+Open **Quests / Map**, then choose **Overworld** or **The Sift**. Click a yellow/blue quest marker or choose a quest in the searchable list. Details show its saved state, description, objectives and rewards.
 
 **Complete quest** completes the quest's existing task records and grants published XP, randomly rolled emerald drops and native gear rewards. Choose reward gear power from 1–100. For repeatable quests, check **First time** only if you have never finished that quest before: the observed save has no reliable first-completion ledger. Already-completed quests cannot claim rewards again. Unavailable or uninitialized quests must first be started through the game; the editor never invents missing task IDs. Unlisted saved quests remain visible but cannot claim unknown rewards.
 

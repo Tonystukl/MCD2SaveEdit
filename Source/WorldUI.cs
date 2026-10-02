@@ -15,7 +15,7 @@ public sealed partial class MainForm
     bool refreshingWorld;
     void BuildWorld()
     {
-        var page = Page("Quests & Map");
+        var page = Page("Quests / Map");
         var layout = new TableLayoutPanel { Dock = DockStyle.Fill, ColumnCount = 1, RowCount = 3, Margin = Padding.Empty };
         layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 48)); layout.RowStyles.Add(new RowStyle(SizeType.Percent, 100)); layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 37)); page.Controls.Add(layout);
         var toolbar = new FlowLayoutPanel { Dock = DockStyle.Fill, WrapContents = false, Padding = new Padding(0, 4, 0, 0) };

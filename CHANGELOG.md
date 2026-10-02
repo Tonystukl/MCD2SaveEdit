@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.3.1
+
+- Regular release with updated Windows EXE and complete source.
+- Renamed navigation to Quests / Map and rendered literal label text.
+- Increased spacing for currency, section headings, gear names, branding and the item-count footer.
+- Removed unsupported decorative symbols and set an explicit menu font.
+- Experimental quest completion and local fog limitations are unchanged.
+
+
 ## 0.3.0 preview
 
 - Add illustrated Overworld and Sift maps, quest markers, zoom, pan and search.

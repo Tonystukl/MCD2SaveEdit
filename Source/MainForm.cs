@@ -28,12 +28,12 @@ public sealed partial class MainForm : Form
 
     public MainForm(string? path)
     {
-        Text = "Minecraft Dungeons II Save Editor 0.3.0"; Font = new Font("Arial", 10.5F); Icon = AppBrand.Icon;
+        Text = "Minecraft Dungeons II Save Editor 0.3.1"; Font = new Font("Arial", 10.5F); Icon = AppBrand.Icon;
         AutoScaleDimensions = new SizeF(96, 96); AutoScaleMode = AutoScaleMode.Dpi; Size = new Size(1640, 1000); MinimumSize = new Size(1180, 760);
         StartPosition = FormStartPosition.CenterScreen;
         var layout = new TableLayoutPanel { Dock = DockStyle.Fill, ColumnCount = 1, RowCount = 5, Padding = new Padding(18, 0, 18, 8) };
-        layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 26)); layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 79)); layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 51)); layout.RowStyles.Add(new RowStyle(SizeType.Percent, 100)); layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 30)); Controls.Add(layout);
-        var menu = new MenuStrip { Dock = DockStyle.Fill }; MainMenuStrip = menu;
+        layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 26)); layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 86)); layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 51)); layout.RowStyles.Add(new RowStyle(SizeType.Percent, 100)); layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 40)); Controls.Add(layout);
+        var menu = new MenuStrip { Dock = DockStyle.Fill, Font = new Font("Arial", 9F) }; MainMenuStrip = menu;
         var fileMenu = new ToolStripMenuItem("File"); menu.Items.Add(fileMenu);
         void MenuAction(ToolStripMenuItem parent, string name, Action action) { parent.DropDownItems.Add(name, null, (_, _) => Run(action)); }
         MenuAction(fileMenu, "Find Xbox saves", FindSaves); MenuAction(fileMenu, "Open file…", OpenFile); MenuAction(fileMenu, "Import character…", ImportCharacter); MenuAction(fileMenu, "Save to game", Save); MenuAction(fileMenu, "Export copy…", Export);
@@ -60,7 +60,7 @@ public sealed partial class MainForm : Form
         BuildNavigationHost(layout);
         knownTags.UnionWith(Catalog.Gear.Select(x => x.Tag)); knownRarities.UnionWith(new[] { "SW.Rarity.Common", "SW.Rarity.Rare", "SW.Rarity.Special", "SW.Rarity.Unique", "SW.Rarity.None" });
         BuildInventory(); BuildHero(); BuildEffects(); BuildWorld(); BuildRaw(); BuildChanges(); BuildHelp();
-        status.Dock = DockStyle.Fill; status.TextAlign = ContentAlignment.MiddleLeft; status.AutoEllipsis = true; status.Tag = "muted"; layout.Controls.Add(status, 0, 4);
+        status.Dock = DockStyle.Fill; status.TextAlign = ContentAlignment.MiddleLeft; status.AutoEllipsis = true; status.Tag = "muted"; status.Margin = Padding.Empty; layout.Controls.Add(status, 0, 4);
         FormClosing += (_, e) => { if (!CanLeave()) e.Cancel = true; }; KeyPreview = true;
         KeyDown += (_, e) => { if (e.Control && e.KeyCode == Keys.S) { Run(Save); e.SuppressKeyPress = true; } };
         RefreshAll();
@@ -156,7 +156,7 @@ public sealed partial class MainForm : Form
     {
         var page = Page("Read me");
         var help = new TextBox { Dock = DockStyle.Fill, Multiline = true, ReadOnly = true, ScrollBars = ScrollBars.Vertical, BorderStyle = BorderStyle.None, Font = new Font("Tahoma", 11), Text = """
-MCD II Save Editor 0.2
+MCD II Save Editor 0.3.1
 
 Close the game, open your character, and select an inventory tile. Apply gear-field changes before saving. Currency controls apply immediately to the editor's draft.
 
@@ -166,7 +166,7 @@ Enchantments: click an enchantment tile or the Enchantment button beneath the se
 
 Currencies: Emeralds, Echo Shards and enchantment points are on the Inventory bar. Stats / Counters includes other saved character attributes.
 
-Quests & Map: switch between Overworld and The Sift, click a quest marker or choose a quest in the list, then complete it and add published rewards to your draft. Available/active native quest records are required. Already-completed quests cannot claim rewards again. For repeatable quests, select First time only if you have never completed that quest before. Quest scripts and story gates have not been verified in-game.
+Quests / Map: switch between Overworld and The Sift, click a quest marker or choose a quest in the list, then complete it and add published rewards to your draft. Available/active native quest records are required. Already-completed quests cannot claim rewards again. For repeatable quests, select First time only if you have never completed that quest before. Quest scripts and story gates have not been verified in-game.
 
 Map areas: reveal the whole region's saved fog grid, or enable the experimental fog preview and reveal fog near an area. Local grid alignment and area boundaries are approximate; map revealing does not activate stations or open story gates. Both actions support Undo and require Save to game.
 
@@ -222,7 +222,7 @@ The program runs locally and uploads nothing. Unofficial fan utility; not affili
             knownSlots.Add(entry["EquippedSlot"]!.GetValue<string>());
             if (entry["ItemData"]!["RarityTag"] is JsonValue rarity) knownRarities.Add(rarity.GetValue<string>());
         }
-        RefreshAll(); status.Text = $"Character loaded • {doc.Items.Count} inventory entries • {(doc.Wgs is null ? "Imported JSON" : "Xbox / Game Pass")} • v0.3.0 preview";
+        RefreshAll(); status.Text = $"Character loaded • {doc.Items.Count} inventory entries • {(doc.Wgs is null ? "Imported JSON" : "Xbox / Game Pass")} • v0.3.1";
     }
     void FindSaves()
     {
@@ -294,7 +294,7 @@ The program runs locally and uploads nothing. Unofficial fan utility; not affili
         {
             saveButton.Enabled = doc is not null; exportButton.Enabled = doc is not null; undoButton.Enabled = doc?.CanUndo == true; redoButton.Enabled = doc?.CanRedo == true;
             subtitle.Text = doc is null ? "Open a character to begin. Your files stay on this computer." : $"{(doc.Dirty ? "Unsaved changes" : "Saved")} · {doc.Items.Count} items";
-            Text = "Minecraft Dungeons II Save Editor 0.3.0" + (doc?.Dirty == true ? " *" : "");
+            Text = "Minecraft Dungeons II Save Editor 0.3.1" + (doc?.Dirty == true ? " *" : "");
             RefreshInventory(); RefreshHero(); RefreshEffects(); RefreshTree(); RefreshChanges(); RefreshClassic(); RefreshWorld();
             if (doc is not null && selectedItem >= 0 && selectedItem < doc.Items.Count) ShowItem(selectedItem);
             else { itemFields.Controls.Clear(); itemJson.Text = ""; itemDirty = false; itemTitle.Text = "Select an item"; itemPicture.Image = null; ClearTiles(effectTiles); }

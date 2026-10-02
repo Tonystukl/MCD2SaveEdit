@@ -1,4 +1,4 @@
-MCD2SaveEdit 0.3.0 preview
+MCD2SaveEdit 0.3.1
 Automated tests on copied/synthetic fixtures. Live game loading and synchronization are not tested.
 
 PASS World catalogue has Overworld, Sift and 42 distinct published quests
@@ -270,30 +270,30 @@ PASS Game write publishes a fresh blob and preserves the prior revision
 PASS Xbox index publishes the new active character revision
 PASS Successful save clears dirty state
 PASS Verified original backup: containers.index
-PASS Verified original backup: container.1
-PASS Unrelated container untouched: container.1
-PASS Verified original backup: E294CE31D45440359DDC78E5692F1978
-PASS Unrelated container untouched: E294CE31D45440359DDC78E5692F1978
-PASS Verified original backup: container.1
-PASS Unrelated container untouched: container.1
-PASS Verified original backup: D3055540B48046C0A4A4B4A191823D60
-PASS Unrelated container untouched: D3055540B48046C0A4A4B4A191823D60
-PASS Verified original backup: 8471911500284B54A235C1236475B25C
-PASS Unrelated container untouched: 8471911500284B54A235C1236475B25C
-PASS Verified original backup: container.1
-PASS Unrelated container untouched: container.1
-PASS Verified original backup: 0E1D4E930566451ABE132DF3C2C41A2F
-PASS Unrelated container untouched: 0E1D4E930566451ABE132DF3C2C41A2F
-PASS Verified original backup: container.1
-PASS Unrelated container untouched: container.1
-PASS Verified original backup: ABFF1C5924364543A96308E55C1709E5
-PASS Unrelated container untouched: ABFF1C5924364543A96308E55C1709E5
-PASS Verified original backup: container.24
-PASS Unrelated container untouched: container.24
-PASS Verified original backup: 44FEDD137B97475496D778401E9C9972
-PASS Unrelated container untouched: 44FEDD137B97475496D778401E9C9972
-PASS Verified original backup: container.193
-PASS Unrelated container untouched: container.193
+PASS Verified original backup: container.2
+PASS Unrelated container untouched: container.2
+PASS Verified original backup: [fixture blob]
+PASS Unrelated container untouched: [fixture blob]
+PASS Verified original backup: [fixture blob]
+PASS Unrelated container untouched: [fixture blob]
+PASS Verified original backup: container.3
+PASS Unrelated container untouched: container.3
+PASS Verified original backup: [fixture blob]
+PASS Unrelated container untouched: [fixture blob]
+PASS Verified original backup: container.2
+PASS Unrelated container untouched: container.2
+PASS Verified original backup: [fixture blob]
+PASS Unrelated container untouched: [fixture blob]
+PASS Verified original backup: container.2
+PASS Unrelated container untouched: container.2
+PASS Verified original backup: [fixture blob]
+PASS Unrelated container untouched: [fixture blob]
+PASS Verified original backup: container.59
+PASS Unrelated container untouched: container.59
+PASS Verified original backup: [fixture blob]
+PASS Unrelated container untouched: [fixture blob]
+PASS Verified original backup: container.195
+PASS Unrelated container untouched: container.195
 PASS Concurrent blob change blocks overwrite
 PASS Concurrent Xbox index change blocks overwrite
 PASS Metadata-only Xbox index refresh no longer blocks saving
@@ -301,6 +301,7 @@ PASS Saving resolves and publishes from the rotated active Xbox blob
 PASS Newer character progress requires explicit replacement
 PASS Conflict leaves newer progress intact
 PASS Unmodified exported JSON can be imported to its matching character with backup
+PASS Real talisman XP edit preserves all nested effects and three tier definitions
 PASS UI model lists all real inventory entries
 PASS Classic inventory displays a tile for every saved item
 PASS Classic loadout displays four separate armor positions
@@ -321,9 +322,16 @@ PASS Selected item uses its in-game display name
 PASS Opening every editor leaves the save unchanged
 PASS Item labels and inputs have separate, contained bounds at window width 1180
 PASS Inventory cards stay within the size cap at window width 1180
+PASS Inventory captions have enough height to render without clipping at window width 1180: Emeralds=32px/17px, Echo Shards=32px/17px, Enchantment points=32px/17px, EQUIPMENT=32px/17px, ARTIFACTS / TALISMANS=32px/17px, ENCHANTMENTS / EFFECTS=36px/17px
+PASS Inventory count is separate from the scrolling cards at window width 1180
 PASS Item labels and inputs have separate, contained bounds at window width 1640
 PASS Inventory cards stay within the size cap at window width 1640
+PASS Inventory captions have enough height to render without clipping at window width 1640: Emeralds=32px/17px, Echo Shards=32px/17px, Enchantment points=32px/17px, EQUIPMENT=32px/17px, ARTIFACTS / TALISMANS=32px/17px, ENCHANTMENTS / EFFECTS=36px/17px
+PASS Inventory count is separate from the scrolling cards at window width 1640
 PASS Item labels and inputs have separate, contained bounds at window width 3000
 PASS Inventory cards stay within the size cap at window width 3000
+PASS Inventory captions have enough height to render without clipping at window width 3000: Emeralds=32px/17px, Echo Shards=32px/17px, Enchantment points=32px/17px, EQUIPMENT=32px/17px, ARTIFACTS / TALISMANS=32px/17px, ENCHANTMENTS / EFFECTS=36px/17px
+PASS Inventory count is separate from the scrolling cards at window width 3000
+PASS Navigation displays Quests / Map without a shortcut underline
 PASS Resizing and rebuilding item fields leaves character data unchanged
 All checks passed. No live game files were changed. In-game loading / cloud synchronization are not tested.

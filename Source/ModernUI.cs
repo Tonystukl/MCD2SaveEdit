@@ -13,7 +13,7 @@ public sealed class ModernButton : Button
     public bool Selected { get; set; }
     public ModernButton()
     {
-        FlatStyle = FlatStyle.Flat; FlatAppearance.BorderSize = 0; Cursor = Cursors.Hand;
+        FlatStyle = FlatStyle.Flat; FlatAppearance.BorderSize = 0; Cursor = Cursors.Hand; UseMnemonic = false;
         SetStyle(ControlStyles.UserPaint | ControlStyles.AllPaintingInWmPaint | ControlStyles.OptimizedDoubleBuffer, true);
     }
     protected override void OnMouseEnter(EventArgs e) { base.OnMouseEnter(e); hover = true; Invalidate(); }
@@ -33,7 +33,7 @@ public sealed class ModernButton : Button
         using var fill = new SolidBrush(fillColor); g.FillPath(fill, shape);
         if (!Navigation && !accented) { using var pen = new Pen(Theme.Border); g.DrawPath(pen, shape); }
         var rect = Rectangle.Inflate(ClientRectangle, -8, -3);
-        TextRenderer.DrawText(g, Text, Font, rect, !Enabled ? Theme.Muted : accented ? Color.White : Theme.Text, TextFormatFlags.HorizontalCenter | TextFormatFlags.VerticalCenter | TextFormatFlags.EndEllipsis | TextFormatFlags.SingleLine);
+        TextRenderer.DrawText(g, Text, Font, rect, !Enabled ? Theme.Muted : accented ? Color.White : Theme.Text, TextFormatFlags.HorizontalCenter | TextFormatFlags.VerticalCenter | TextFormatFlags.EndEllipsis | TextFormatFlags.SingleLine | TextFormatFlags.NoPrefix);
         if (Focused) { using var outline = new Pen(Theme.Accent, 2); g.DrawPath(outline, shape); }
     }
 }
@@ -49,9 +49,9 @@ public sealed partial class MainForm
         header.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 58)); header.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100));
         header.Controls.Add(new PictureBox { Dock = DockStyle.Fill, SizeMode = PictureBoxSizeMode.Zoom, Image = AppBrand.Icon.ToBitmap(), Padding = new Padding(5) }, 0, 0);
         var words = new TableLayoutPanel { Dock = DockStyle.Fill, ColumnCount = 1, RowCount = 2, Margin = Padding.Empty };
-        words.RowStyles.Add(new RowStyle(SizeType.Percent, 65)); words.RowStyles.Add(new RowStyle(SizeType.Percent, 35));
-        words.Controls.Add(new Label { Dock = DockStyle.Fill, Text = "MCD2 Save Editor", Font = new Font("Arial", 21, FontStyle.Bold), TextAlign = ContentAlignment.MiddleLeft }, 0, 0);
-        words.Controls.Add(new Label { Dock = DockStyle.Fill, Text = "Character tools  •  Inventory, enchantments and world progress", Tag = "muted", TextAlign = ContentAlignment.MiddleLeft }, 0, 1);
+        words.RowStyles.Add(new RowStyle(SizeType.Absolute, 46)); words.RowStyles.Add(new RowStyle(SizeType.Percent, 100));
+        words.Controls.Add(new Label { Dock = DockStyle.Fill, Margin = Padding.Empty, Text = "MCD2 Save Editor", Font = new Font("Arial", 21, FontStyle.Bold), TextAlign = ContentAlignment.MiddleLeft }, 0, 0);
+        words.Controls.Add(new Label { Dock = DockStyle.Fill, Margin = Padding.Empty, AutoEllipsis = true, Text = "Character tools  •  Inventory, enchantments and world progress", Tag = "muted", TextAlign = ContentAlignment.MiddleLeft }, 0, 1);
         header.Controls.Add(words, 1, 0); return header;
     }
     void BuildNavigationHost(TableLayoutPanel parent)

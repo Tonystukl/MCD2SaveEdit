@@ -103,12 +103,13 @@ public sealed class GearTile : Button
         using var fill = new LinearGradientBrush(bounds, unique ? (Theme.Dark ? Color.FromArgb(100, 59, 30) : Color.FromArgb(255, 191, 132)) : Theme.Surface, Theme.Surface, 90F); g.FillRectangle(fill, bounds);
         using var border = new Pen(Selected ? Theme.Accent : unique ? Color.FromArgb(241, 135, 49) : Theme.Border, Selected || unique ? 2 : 1); g.DrawRectangle(border, bounds);
         float scale = DeviceDpi / 96F;
-        int labelHeight = (int)(54 * scale), inset = (int)(8 * scale);
+        using var label = new Font(Font.FontFamily, Math.Max(9.5F, Font.SizeInPoints));
+        int inset = (int)(8 * scale);
+        int labelHeight = Math.Max((int)(64 * scale), (int)Math.Ceiling(label.GetHeight(g) * 3) + inset);
         int size = Math.Min(Width - 2 * inset, Height - labelHeight - inset);
         if (Catalog.ItemIcon(tag) is { } icon) g.DrawImage(icon, new Rectangle((Width - size) / 2, inset, size, size));
         else { using var placeholder = new Font(Font.FontFamily, 22); TextRenderer.DrawText(g, string.IsNullOrEmpty(tag) ? "+" : "◆", placeholder, new Rectangle(4, 9, Width - 8, size - 8), Theme.Muted, TextFormatFlags.HorizontalCenter | TextFormatFlags.VerticalCenter); }
-        using var label = new Font(Font.FontFamily, Math.Max(9.5F, Font.SizeInPoints));
-        TextRenderer.DrawText(g, title, label, new Rectangle(inset, Height - labelHeight, Width - 2 * inset, labelHeight - inset), Theme.Text, TextFormatFlags.HorizontalCenter | TextFormatFlags.WordBreak | TextFormatFlags.EndEllipsis);
+        TextRenderer.DrawText(g, title, label, new Rectangle(inset, Height - labelHeight, Width - 2 * inset, labelHeight - inset), Theme.Text, TextFormatFlags.HorizontalCenter | TextFormatFlags.WordBreak | TextFormatFlags.EndEllipsis | TextFormatFlags.NoPrefix);
         if (!string.IsNullOrEmpty(power) && power != "-1")
         {
             using var font = new Font(Font.FontFamily, Math.Max(10, Font.SizeInPoints), FontStyle.Bold); var measured = TextRenderer.MeasureText(power, font); var rect = new Rectangle(Width - measured.Width - inset, inset, measured.Width, measured.Height);
