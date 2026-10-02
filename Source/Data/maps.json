@@ -1,0 +1,634 @@
+[
+  {
+    "Id": "overworld",
+    "Name": "Overworld",
+    "Tag": "SW.Region.Overworld",
+    "Image": "overworld.png",
+    "CropX": 0,
+    "CropY": 1416,
+    "Divisor": 2,
+    "ScaleX": 0.051199697742819385,
+    "ScaleY": -0.05120008257968663,
+    "OffsetX": 880.6719514277424,
+    "OffsetY": 5125.11578553927,
+    "Markers": [
+      {
+        "Id": "station-2769-3640",
+        "Quest": "",
+        "Kind": "station",
+        "X": 2768.9,
+        "Y": 3640.3,
+        "Name": "Honeycomb Farm",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "station-599-4366",
+        "Quest": "",
+        "Kind": "station",
+        "X": 599,
+        "Y": 4366.4,
+        "Name": "Haven Station",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "station-6666-3906",
+        "Quest": "",
+        "Kind": "station",
+        "X": 6666.2,
+        "Y": 3905.6,
+        "Name": "Frozen Fortress",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "station-4955-7598",
+        "Quest": "",
+        "Kind": "station",
+        "X": 4955.2,
+        "Y": 7598.1,
+        "Name": "Orange Tower",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "station-5893-4863",
+        "Quest": "",
+        "Kind": "station",
+        "X": 5893.1,
+        "Y": 4863,
+        "Name": "Frozen Shipyard",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "station-7565-5104",
+        "Quest": "",
+        "Kind": "station",
+        "X": 7564.8,
+        "Y": 5103.6,
+        "Name": "Ice Caves",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "station-4797-7044",
+        "Quest": "",
+        "Kind": "station",
+        "X": 4797.4,
+        "Y": 7044.1,
+        "Name": "Monsoon Banks",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "station-4274-3748",
+        "Quest": "",
+        "Kind": "station",
+        "X": 4274.3,
+        "Y": 3747.8,
+        "Name": "Hidden Grove",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "station-2882-4250",
+        "Quest": "",
+        "Kind": "station",
+        "X": 2881.6,
+        "Y": 4249.6,
+        "Name": "Honeybrook Bridge",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "station-3681-3742",
+        "Quest": "",
+        "Kind": "station",
+        "X": 3681.3,
+        "Y": 3741.8,
+        "Name": "Deep Dark Entrance",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "station-7644-3373",
+        "Quest": "",
+        "Kind": "station",
+        "X": 7644.2,
+        "Y": 3373.1,
+        "Name": "Highland Cliffs",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "station-4347-6875",
+        "Quest": "",
+        "Kind": "station",
+        "X": 4346.9,
+        "Y": 6875.2,
+        "Name": "White Tower",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "station-5518-6211",
+        "Quest": "",
+        "Kind": "station",
+        "X": 5518.4,
+        "Y": 6210.6,
+        "Name": "Red Tower",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "station-4024-4433",
+        "Quest": "",
+        "Kind": "station",
+        "X": 4024.4,
+        "Y": 4432.9,
+        "Name": "Little Howl Hamlet",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "station-5146-4382",
+        "Quest": "",
+        "Kind": "station",
+        "X": 5145.7,
+        "Y": 4381.8,
+        "Name": "Woodcutter's Outpost",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "station-4470-5698",
+        "Quest": "",
+        "Kind": "station",
+        "X": 4469.8,
+        "Y": 5697.6,
+        "Name": "Puddle Pond",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "station-6983-4413",
+        "Quest": "",
+        "Kind": "station",
+        "X": 6982.7,
+        "Y": 4413.4,
+        "Name": "Fortress Backgate",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "station-6117-3139",
+        "Quest": "",
+        "Kind": "station",
+        "X": 6117.4,
+        "Y": 3138.6,
+        "Name": "Archie's Ruins",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "quest-CT_S01_A",
+        "Quest": "CT_S01_A",
+        "Kind": "quest-side",
+        "X": 4833.8,
+        "Y": 4142.6,
+        "Name": "The Trembling Golem",
+        "Icon": "SideQuestGiver.png"
+      },
+      {
+        "Id": "quest-CT_S02_A",
+        "Quest": "CT_S02_A",
+        "Kind": "quest-side",
+        "X": 6153.2,
+        "Y": 3150.8,
+        "Name": "The Freezing Golem",
+        "Icon": "SideQuestGiver.png"
+      },
+      {
+        "Id": "quest-CT_S03_A",
+        "Quest": "CT_S03_A",
+        "Kind": "quest-side",
+        "X": 2443.3,
+        "Y": 3643.4,
+        "Name": "The Sneezing Golem",
+        "Icon": "SideQuestGiver.png"
+      },
+      {
+        "Id": "quest-CT_S04_A",
+        "Quest": "CT_S04_A",
+        "Kind": "quest-side",
+        "X": 4977.7,
+        "Y": 5933.6,
+        "Name": "The Rusting Golem",
+        "Icon": "SideQuestGiver.png"
+      },
+      {
+        "Id": "quest-CA01",
+        "Quest": "CA01",
+        "Kind": "quest-core",
+        "X": 239.7,
+        "Y": 4386.9,
+        "Name": "The Illagers from the Rift",
+        "Icon": "CoreQuestGiver.png"
+      },
+      {
+        "Id": "quest-CA02",
+        "Quest": "CA02",
+        "Kind": "quest-core",
+        "X": 480.8,
+        "Y": 4351,
+        "Name": "The Silence in Little Howl",
+        "Icon": "CoreQuestGiver.png"
+      },
+      {
+        "Id": "quest-CA03",
+        "Quest": "CA03",
+        "Kind": "quest-core",
+        "X": 3637.8,
+        "Y": 3586.6,
+        "Name": "Down into the Deep Dark",
+        "Icon": "CoreQuestGiver.png"
+      },
+      {
+        "Id": "quest-CA05",
+        "Quest": "CA05",
+        "Kind": "quest-core",
+        "X": 4452.4,
+        "Y": 5678.6,
+        "Name": "Hiking Frozen Highlands",
+        "Icon": "CoreQuestGiver.png"
+      },
+      {
+        "Id": "quest-CA07",
+        "Quest": "CA07",
+        "Kind": "quest-core",
+        "X": 332.3,
+        "Y": 4271.1,
+        "Name": "Wading Rainy Plains",
+        "Icon": "CoreQuestGiver.png"
+      },
+      {
+        "Id": "quest-CA02_B",
+        "Quest": "CA02_B",
+        "Kind": "quest-core",
+        "X": 483.3,
+        "Y": 4467.7,
+        "Name": "Corruption in the Woods",
+        "Icon": "CoreQuestGiver.png"
+      },
+      {
+        "Id": "quest-CA02_B_BR",
+        "Quest": "CA02_B_BR",
+        "Kind": "rematch",
+        "X": 3473.9,
+        "Y": 3628,
+        "Name": "The Witch Revived",
+        "Icon": "QuestGiver.png"
+      },
+      {
+        "Id": "quest-CA07_BR",
+        "Quest": "CA07_BR",
+        "Kind": "rematch",
+        "X": 2972.2,
+        "Y": 6177.3,
+        "Name": "The Copper Monstrosity Revived",
+        "Icon": "QuestGiver.png"
+      },
+      {
+        "Id": "quest-CA01_B",
+        "Quest": "CA01_B",
+        "Kind": "quest-core",
+        "X": 2810.4,
+        "Y": 3657.7,
+        "Name": "The Lost Merchant",
+        "Icon": "CoreQuestGiver.png"
+      },
+      {
+        "Id": "quest-CA02_C",
+        "Quest": "CA02_C",
+        "Kind": "quest-core",
+        "X": 4020.4,
+        "Y": 4456.3,
+        "Name": "Training with the Enchantsmith",
+        "Icon": "CoreQuestGiver.png"
+      },
+      {
+        "Id": "quest-DEa1_S13_A",
+        "Quest": "DEa1_S13_A",
+        "Kind": "quest-side",
+        "X": 6655.5,
+        "Y": 3957.2,
+        "Name": "The Fight at the End of the Tunnel",
+        "Icon": "SideQuestGiver.png"
+      },
+      {
+        "Id": "quest-DEa1_S14_A",
+        "Quest": "DEa1_S14_A",
+        "Kind": "quest-side",
+        "X": 6928.4,
+        "Y": 3983.4,
+        "Name": "Gone Fishing",
+        "Icon": "SideQuestGiver.png"
+      },
+      {
+        "Id": "quest-FOa1_S08_A",
+        "Quest": "FOa1_S08_A",
+        "Kind": "quest-side",
+        "X": 3946,
+        "Y": 4456.4,
+        "Name": "Part of the Pack",
+        "Icon": "SideQuestGiver.png"
+      },
+      {
+        "Id": "quest-FOa1_S10_A",
+        "Quest": "FOa1_S10_A",
+        "Kind": "quest-side",
+        "X": 3885.1,
+        "Y": 4521.5,
+        "Name": "The Cleric's Apprentice",
+        "Icon": "SideQuestGiver.png"
+      },
+      {
+        "Id": "quest-PLa1_S08_A",
+        "Quest": "PLa1_S08_A",
+        "Kind": "quest-side",
+        "X": 2650.1,
+        "Y": 3665.4,
+        "Name": "The Creeper Candle Conspiracy",
+        "Icon": "SideQuestGiver.png"
+      },
+      {
+        "Id": "quest-PLa1_S04_A",
+        "Quest": "PLa1_S04_A",
+        "Kind": "quest-side",
+        "X": 2564.1,
+        "Y": 3729.9,
+        "Name": "Keeper of the Bees",
+        "Icon": "SideQuestGiver.png"
+      },
+      {
+        "Id": "quest-PLa2_S15_A",
+        "Quest": "PLa2_S15_A",
+        "Kind": "quest-side",
+        "X": 4558.1,
+        "Y": 5798.3,
+        "Name": "Recycling Your Monstrosity",
+        "Icon": "SideQuestGiver.png"
+      },
+      {
+        "Id": "quest-PLa2_S16_A",
+        "Quest": "PLa2_S16_A",
+        "Kind": "quest-side",
+        "X": 4423.7,
+        "Y": 5509.1,
+        "Name": "Wildflower Warrior",
+        "Icon": "SideQuestGiver.png"
+      },
+      {
+        "Id": "quest-PLa2_S17_A",
+        "Quest": "PLa2_S17_A",
+        "Kind": "quest-side",
+        "X": 4449.3,
+        "Y": 5590,
+        "Name": "Illegal Illager Trials",
+        "Icon": "SideQuestGiver.png"
+      }
+    ],
+    "Labels": [
+      {
+        "Name": "Frozen Highlands",
+        "X": 6810,
+        "Y": 3991
+      },
+      {
+        "Name": "Howling Woods",
+        "X": 4273,
+        "Y": 4083
+      },
+      {
+        "Name": "Honeycomb Fields",
+        "X": 2281,
+        "Y": 3796
+      },
+      {
+        "Name": "Rainy Plains",
+        "X": 5033,
+        "Y": 6682
+      },
+      {
+        "Name": "Brave Haven",
+        "X": 599,
+        "Y": 4366
+      }
+    ]
+  },
+  {
+    "Id": "sift",
+    "Name": "The Sift",
+    "Tag": "SW.Region.Sift",
+    "Image": "sift.png",
+    "CropX": 0,
+    "CropY": 2098,
+    "Divisor": 2,
+    "ScaleX": 0.05120026518452707,
+    "ScaleY": -0.051184921763868955,
+    "OffsetX": -7946.283805092766,
+    "OffsetY": 1573.0145803698574,
+    "Markers": [
+      {
+        "Id": "station-374-4653",
+        "Quest": "",
+        "Kind": "station",
+        "X": 373.8,
+        "Y": 4653.1,
+        "Name": "Sifter Canyon",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "station-865-4970",
+        "Quest": "",
+        "Kind": "station",
+        "X": 865.3,
+        "Y": 4970.5,
+        "Name": "Wild Meadows",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "station-4530-5253",
+        "Quest": "",
+        "Kind": "station",
+        "X": 4530.2,
+        "Y": 5253.1,
+        "Name": "Lullaby Border",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "station-2318-5445",
+        "Quest": "",
+        "Kind": "station",
+        "X": 2318.4,
+        "Y": 5445.1,
+        "Name": "Ichor Ponds",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "station-389-6696",
+        "Quest": "",
+        "Kind": "station",
+        "X": 389.1,
+        "Y": 6695.9,
+        "Name": "Choral Glen",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "station-5048-6041",
+        "Quest": "",
+        "Kind": "station",
+        "X": 5048.3,
+        "Y": 6040.6,
+        "Name": "Lullaby Hilltop",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "station-5989-5524",
+        "Quest": "",
+        "Kind": "station",
+        "X": 5989.4,
+        "Y": 5524.5,
+        "Name": "Illager Stronghold",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "station-3133-5616",
+        "Quest": "",
+        "Kind": "station",
+        "X": 3133.4,
+        "Y": 5615.6,
+        "Name": "The Echo Den",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "station-987-5570",
+        "Quest": "",
+        "Kind": "station",
+        "X": 987.2,
+        "Y": 5570.5,
+        "Name": "Singer's Portal",
+        "Icon": "Minecart.png"
+      },
+      {
+        "Id": "quest-CAa1_S03_A",
+        "Quest": "CAa1_S03_A",
+        "Kind": "quest-side",
+        "X": 3042.8,
+        "Y": 5625.9,
+        "Name": "Breaking Camps",
+        "Icon": "SideQuestGiver.png"
+      },
+      {
+        "Id": "quest-CAa1_S02_A",
+        "Quest": "CAa1_S02_A",
+        "Kind": "quest-side",
+        "X": 3041.8,
+        "Y": 5550.6,
+        "Name": "A Dip in Ichor Springs",
+        "Icon": "SideQuestGiver.png"
+      },
+      {
+        "Id": "quest-CA08",
+        "Quest": "CA08",
+        "Kind": "quest-core",
+        "X": 487,
+        "Y": 5754.4,
+        "Name": "Lost Harmonies",
+        "Icon": "CoreQuestGiver.png"
+      },
+      {
+        "Id": "quest-CA09",
+        "Quest": "CA09",
+        "Kind": "quest-core",
+        "X": 2170.9,
+        "Y": 5470.7,
+        "Name": "Wrath of the Sculkers",
+        "Icon": "CoreQuestGiver.png"
+      },
+      {
+        "Id": "quest-CA10",
+        "Quest": "CA10",
+        "Kind": "quest-core",
+        "X": 4576.8,
+        "Y": 5324.8,
+        "Name": "The Final Souldown",
+        "Icon": "CoreQuestGiver.png"
+      },
+      {
+        "Id": "quest-CA09_BR",
+        "Quest": "CA09_BR",
+        "Kind": "rematch",
+        "X": 1820.2,
+        "Y": 5521.9,
+        "Name": "The Sculk Monstrosity Revived",
+        "Icon": "QuestGiver.png"
+      },
+      {
+        "Id": "quest-CA08_B",
+        "Quest": "CA08_B",
+        "Kind": "quest-core",
+        "X": 487,
+        "Y": 5754.4,
+        "Name": "A Monstrosity in the Meadow",
+        "Icon": "CoreQuestGiver.png"
+      },
+      {
+        "Id": "quest-CA10_BR_B",
+        "Quest": "CA10_BR_B",
+        "Kind": "rematch",
+        "X": 5235.2,
+        "Y": 5603.8,
+        "Name": "The Redstone Monstrosity Revived",
+        "Icon": "QuestGiver.png"
+      },
+      {
+        "Id": "quest-MEa1_S05_A",
+        "Quest": "MEa1_S05_A",
+        "Kind": "quest-side",
+        "X": 494,
+        "Y": 5737,
+        "Name": "Rage of the Sifters",
+        "Icon": "SideQuestGiver.png"
+      },
+      {
+        "Id": "quest-MEa1_S06_A",
+        "Quest": "MEa1_S06_A",
+        "Kind": "quest-side",
+        "X": 644.1,
+        "Y": 5666.3,
+        "Name": "Wobble Run",
+        "Icon": "SideQuestGiver.png"
+      },
+      {
+        "Id": "quest-MEa2_S02_A",
+        "Quest": "MEa2_S02_A",
+        "Kind": "quest-side",
+        "X": 5048.3,
+        "Y": 6144,
+        "Name": "A Friend till the End",
+        "Icon": "SideQuestGiver.png"
+      },
+      {
+        "Id": "quest-MEa2_S03_A",
+        "Quest": "MEa2_S03_A",
+        "Kind": "quest-side",
+        "X": 5048.3,
+        "Y": 6144,
+        "Name": "Lonesome in Lullaby Hills",
+        "Icon": "SideQuestGiver.png"
+      }
+    ],
+    "Labels": [
+      {
+        "Name": "Singer's Meadow",
+        "X": 1006,
+        "Y": 5591
+      },
+      {
+        "Name": "Humbler Huskland",
+        "X": 3000,
+        "Y": 5576
+      },
+      {
+        "Name": "Lullaby Hills",
+        "X": 5251,
+        "Y": 5650
+      }
+    ]
+  }
+]

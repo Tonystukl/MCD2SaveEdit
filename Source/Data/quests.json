@@ -1,0 +1,4363 @@
+[
+  {
+    "Id": "CA00",
+    "Name": "Escape from Squid Coast",
+    "Description": "The Illager High Council attacked your camp! They opened strange rifts in thin air and ambushed the villagers.",
+    "Area": "Squid Coast",
+    "Repeatable": false,
+    "XPFirst": 550,
+    "XPRepeat": 550,
+    "EmeraldBase": 5,
+    "EmeraldExtra": 5,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.16666666666666666,
+    "Prerequisites": [],
+    "Unlocks": [
+      "CA01"
+    ],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.MysticBoots",
+          "SW.Item.MysticChest",
+          "SW.Item.MysticHelmet",
+          "SW.Item.MysticLeggings"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "",
+        "Label": "One of Mystic Boots, Mystic Robe, Mystic Circlet, Mystic Leggings"
+      },
+      {
+        "Tags": [
+          "SW.Item.Sword",
+          "SW.Item.Mace",
+          "SW.Item.Rapier",
+          "SW.Item.Greatsword",
+          "SW.Item.Sickles",
+          "SW.Item.Bow",
+          "SW.Item.Powerbow",
+          "SW.Item.Crossbow",
+          "SW.Item.Artifact.PoisonBracelet",
+          "SW.Item.Artifact.FightersFife",
+          "SW.Item.Artifact.RallyingHorn",
+          "SW.Item.Artifact.WardingChimes",
+          "SW.Item.Artifact.CorruptedBeacon",
+          "SW.Item.Artifact.Satchel.Freezing",
+          "SW.Item.Artifact.Honeypot",
+          "SW.Item.Artifact.CreeperCandle",
+          "SW.Item.Artifact.FireworkQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Common",
+        "Label": "One common item from Honeycomb Fields"
+      }
+    ],
+    "Tasks": [
+      "CA00_PC01",
+      "CA00_E01",
+      "CA00_SM01",
+      "CA00_K01",
+      "CA00_I01",
+      "CA00_E03",
+      "CA00_PC02",
+      "CA00_SM02",
+      "CA00_K02",
+      "CA00_I02",
+      "CA00_Standard01",
+      "CA00_Sequence02",
+      "CA00_SM03",
+      "CA00_I03",
+      "CA00_Sequence03",
+      "CA00_SM04",
+      "CA00_SM06",
+      "CA00_I04",
+      "CA00_Sequence04",
+      "CA00_SM05",
+      "CA00_SM07",
+      "CA00_I06",
+      "CA00_Sequence05",
+      "CA00_SM08",
+      "CA00_I10",
+      "CA00_E04",
+      "CA00_I07",
+      "CA00_I08",
+      "CA00_E05",
+      "CA00_AS01",
+      "CA00_E06",
+      "CA00_I09",
+      "CA00_PC03",
+      "CA00_Sequence01"
+    ],
+    "Objectives": [
+      "Get back to camp",
+      "Defeat the monsters",
+      "Open the gate",
+      "Investigate camp",
+      "Defeat the illagers",
+      "Speak to the Villager",
+      "Meet the villagers at the gate",
+      "Speak to the Villager",
+      "Open the gate",
+      "Clear the way to the docks",
+      "Defeat the ambush",
+      "Clear the way to the docks",
+      "Speak to the Villager"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/escape-from-squid-coast"
+  },
+  {
+    "Id": "CA01",
+    "Name": "The Illagers from the Rift",
+    "Description": "Strange rifts have appeared across the Overworld, with illager hordes pouring through. The town of Brave Haven is under siege and the villagers need your help.",
+    "Area": "Honeycomb Fields",
+    "Repeatable": false,
+    "XPFirst": 1100,
+    "XPRepeat": 1100,
+    "EmeraldBase": 8,
+    "EmeraldExtra": 8,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.375,
+    "Prerequisites": [
+      "CA00"
+    ],
+    "Unlocks": [
+      "CA01_B",
+      "PLa1_S04_A",
+      "PLa1_S08_A"
+    ],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.Artifact.Honeypot"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "Common",
+        "Label": "Honey Dipper"
+      },
+      {
+        "Tags": [
+          "SW.Item.Talisman.HealthBoost"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Sigil of Beeswax"
+      },
+      {
+        "Tags": [
+          "SW.Item.Sword",
+          "SW.Item.Mace",
+          "SW.Item.Rapier",
+          "SW.Item.Greatsword",
+          "SW.Item.Sickles",
+          "SW.Item.Bow",
+          "SW.Item.Powerbow",
+          "SW.Item.Crossbow",
+          "SW.Item.Artifact.PoisonBracelet",
+          "SW.Item.Artifact.FightersFife",
+          "SW.Item.Artifact.RallyingHorn",
+          "SW.Item.Artifact.WardingChimes",
+          "SW.Item.Artifact.CorruptedBeacon",
+          "SW.Item.Artifact.Satchel.Freezing",
+          "SW.Item.Artifact.Honeypot",
+          "SW.Item.Artifact.CreeperCandle",
+          "SW.Item.Artifact.FireworkQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Common",
+        "Label": "One common item from Honeycomb Fields"
+      }
+    ],
+    "Tasks": [
+      "CA01_E14",
+      "CA01_I07",
+      "CA01_E12",
+      "CA01_E13",
+      "CA01_E10",
+      "CA01_AS01",
+      "CA01_I08",
+      "CA01_E01",
+      "CA01_SM02",
+      "CA01_K02",
+      "CA01_I02",
+      "CA01_Sequence03",
+      "CA01_E02",
+      "CA01_SM03",
+      "CA01_SM06",
+      "CA01_K03",
+      "CA01_E03",
+      "CA01_I03",
+      "CA01_PC01",
+      "CA01_AS03",
+      "CA01_I04",
+      "CA01_PC03",
+      "CA01_Sequence02",
+      "CA01_E06",
+      "CA01_AS02",
+      "CA01_E07",
+      "CA01_I05",
+      "CA01_Sequence01"
+    ],
+    "Objectives": [
+      "Reach the town gate",
+      "Speak to the Villager",
+      "Find the key golem",
+      "Open the gate",
+      "Defeat the illagers",
+      "Defeat the illagers",
+      "Speak to the Villager",
+      "Find Honeycomb Farm",
+      "Defeat the illagers",
+      "Speak to the Farmer",
+      "Reach the Farmer's fields",
+      "Defeat the soul corrupted monsters",
+      "Return to the Farmer",
+      "Speak to the Farmer",
+      "Investigate the illager activity",
+      "Defeat the illagers",
+      "Enter the rift",
+      "Explore the new dimension",
+      "Defeat the illagers",
+      "Return to the Overworld",
+      "Speak to the Farmer"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/the-illagers-from-the-rift"
+  },
+  {
+    "Id": "CA01_B",
+    "Name": "The Lost Merchant",
+    "Description": "There are rumors that the Illager High Council has been exploring the Deep Dark caves of Howling Woods. It may be connected to the rifts and how they have obtained their dangerous new powers.",
+    "Area": "Honeycomb Fields",
+    "Repeatable": false,
+    "XPFirst": 1100,
+    "XPRepeat": 1100,
+    "EmeraldBase": 8,
+    "EmeraldExtra": 8,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.375,
+    "Prerequisites": [
+      "CA01"
+    ],
+    "Unlocks": [
+      "CA02"
+    ],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.HoneyBoots",
+          "SW.Item.HoneyChest",
+          "SW.Item.HoneyHelmet",
+          "SW.Item.HoneyLeggings"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "",
+        "Label": "One of Beekeeper Boots, Beekeeper Suit, Beekeeper Veil, Beekeeper Leggings"
+      },
+      {
+        "Tags": [
+          "SW.Item.Sword",
+          "SW.Item.Mace",
+          "SW.Item.Rapier",
+          "SW.Item.Greatsword",
+          "SW.Item.Sickles",
+          "SW.Item.Bow",
+          "SW.Item.Powerbow",
+          "SW.Item.Crossbow",
+          "SW.Item.Artifact.PoisonBracelet",
+          "SW.Item.Artifact.FightersFife",
+          "SW.Item.Artifact.RallyingHorn",
+          "SW.Item.Artifact.WardingChimes",
+          "SW.Item.Artifact.CorruptedBeacon",
+          "SW.Item.Artifact.Satchel.Freezing",
+          "SW.Item.Artifact.Honeypot",
+          "SW.Item.Artifact.CreeperCandle",
+          "SW.Item.Artifact.FireworkQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Rare",
+        "Label": "One rare item from Honeycomb Fields"
+      }
+    ],
+    "Tasks": [
+      "CA01_B_I01",
+      "CA01_B_E02",
+      "CA01_B_AS01",
+      "CA01_B_I02",
+      "CA01_B_Standard01",
+      "CA01_B_Standard02",
+      "CA01_B_SM01",
+      "CA01_B_I03",
+      "CA01_B_Standard03",
+      "CA01_B_SM02",
+      "CA01_B_I04",
+      "CA01_B_Standard04",
+      "CA01_B_SM03",
+      "CA01_B_I05",
+      "CA01_B_Standard05",
+      "CA01_B_SM04",
+      "CA01_B_I06",
+      "CA01_B_E03",
+      "CA01_B_I07",
+      "CA01_B_E04",
+      "CA01_B_E05",
+      "CA01_B_I08",
+      "CA01_B_Sequence01"
+    ],
+    "Objectives": [
+      "Speak to the Villager by the bridge",
+      "Find the Merchant",
+      "Rescue the Merchant",
+      "Speak to the Merchant",
+      "Meet the Merchant at Honeycomb Farm",
+      "Speak to the Merchant",
+      "Travel to Brave Haven",
+      "Find the Merchant's stall",
+      "Speak to the Merchant"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/the-lost-merchant"
+  },
+  {
+    "Id": "CA02",
+    "Name": "The Silence in Little Howl",
+    "Description": "The Illager High Council is hiding something important in Howling Woods. It may be connected to the rifts and how they have obtained their dangerous new soul magic.",
+    "Area": "Howling Woods",
+    "Repeatable": false,
+    "XPFirst": 2750,
+    "XPRepeat": 2750,
+    "EmeraldBase": 12,
+    "EmeraldExtra": 12,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.5,
+    "Prerequisites": [
+      "CA01_B"
+    ],
+    "Unlocks": [
+      "CA02_C"
+    ],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.Axe"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "Rare",
+        "Label": "Axe"
+      },
+      {
+        "Tags": [
+          "SW.Item.Talisman.Wolf"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Tasty Bone"
+      },
+      {
+        "Tags": [
+          "SW.Item.Axe",
+          "SW.Item.Shovel",
+          "SW.Item.ShortSpear",
+          "SW.Item.CurvedLongsword",
+          "SW.Item.Claws",
+          "SW.Item.MoonSword",
+          "SW.Item.Pickaxe",
+          "SW.Item.Daggers",
+          "SW.Item.Dagger",
+          "SW.Item.Sabre",
+          "SW.Item.Glaive",
+          "SW.Item.Battlestaff",
+          "SW.Item.Longbow",
+          "SW.Item.ScatterCrossbow",
+          "SW.Item.HeavyCrossbow",
+          "SW.Item.Greatbow",
+          "SW.Item.RapidCrossbow",
+          "SW.Item.Artifact.CorruptedSeeds",
+          "SW.Item.Artifact.Satchel.Conductive",
+          "SW.Item.Artifact.IronHideLute",
+          "SW.Item.Artifact.TotemOfShielding",
+          "SW.Item.Artifact.BlizzardStaff",
+          "SW.Item.Artifact.DeathcapMushroom",
+          "SW.Item.Artifact.SmokeBomb",
+          "SW.Item.Artifact.WitchesBrew",
+          "SW.Item.Artifact.PoisonQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Common",
+        "Label": "One common item from Howling Woods"
+      }
+    ],
+    "Tasks": [
+      "CA02_E08",
+      "CA02_I09",
+      "CA02_I08",
+      "CA02_E02",
+      "CA02_I01",
+      "CA02_E03",
+      "CA02_AS01",
+      "CA02_PC01",
+      "CA02_E04",
+      "CA02_Sequence03",
+      "CA02_E05",
+      "CA02_I03",
+      "CA02_PC02",
+      "CA02_AS02",
+      "CA02_E06",
+      "CA02_AS03",
+      "CA02_I04",
+      "CA02_PC03",
+      "CA02_I05",
+      "CA02_PC04",
+      "CA02_I07",
+      "CA02_Sequence01"
+    ],
+    "Objectives": [
+      "Return to the bridge",
+      "Speak to the Farmer",
+      "Replace the broken lever",
+      "Reach Little Howl Hamlet",
+      "Open the gate",
+      "Investigate Little Howl",
+      "Defeat the illagers",
+      "Defeat the reinforcements",
+      "Enter the rift",
+      "Pursue the illagers",
+      "Pet the strange creature",
+      "Defeat the rabid sifters",
+      "Find a way home",
+      "Defeat the rabid sifters",
+      "Check on the creature",
+      "Return to the Overworld",
+      "Speak to the Cleric"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/the-silence-in-little-howl"
+  },
+  {
+    "Id": "CA02_C",
+    "Name": "Training with the Enchantsmith",
+    "Description": "The Enchantsmith is not sure you are strong enough to challenge the Illager High Council and their dangerous new soul magic.",
+    "Area": "Howling Woods",
+    "Repeatable": false,
+    "XPFirst": 2750,
+    "XPRepeat": 2750,
+    "EmeraldBase": 12,
+    "EmeraldExtra": 12,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.5,
+    "Prerequisites": [
+      "CA02"
+    ],
+    "Unlocks": [
+      "CA02_B",
+      "FOa1_S08_A"
+    ],
+    "FirstRewards": [],
+    "Rewards": [],
+    "Tasks": [
+      "CA02_C_SM01",
+      "CA02_C_E01",
+      "CA02_C_Sequence02",
+      "CA02_C_I01",
+      "CA02_C_E02",
+      "CA02_C_Sequence03",
+      "CA02_C_I02",
+      "CA02_C_SM02",
+      "CA02_C_K01",
+      "CA02_C_E03",
+      "CA02_C_Sequence04",
+      "CA02_C_E04",
+      "CA02_C_E05",
+      "CA02_C_I03",
+      "CA02_C_AS01",
+      "CA02_C_E06",
+      "CA02_C_I05",
+      "CA02_C_E07",
+      "CA02_C_E08",
+      "CA02_C_I06",
+      "CA02_C_Sequence05",
+      "CA02_C_E09",
+      "CA02_C_E10",
+      "CA02_C_E11",
+      "CA02_C_I07",
+      "CA02_C_AS02",
+      "CA02_C_E12",
+      "CA02_C_E13",
+      "CA02_C_I08",
+      "CA02_C_Sequence01"
+    ],
+    "Objectives": [
+      "Search for the Book of Healing Smite",
+      "Collect the Book of Healing Smite",
+      "Search for the Book of Piercing",
+      "Collect the Book of Piercing",
+      "Defeat the illagers",
+      "Search for the Book of Ancient Alchemy",
+      "Enter the wishing well",
+      "Search for the Book of Ancient Alchemy",
+      "Investigate the empty lectern",
+      "Defeat the illagers",
+      "Return to the Enchantsmith",
+      "Hand over the enchantment books",
+      "Return to Brave Haven",
+      "Find the Enchantsmith's stall",
+      "Speak to the Enchantsmith",
+      "Find the dungeon entrance",
+      "Enter the dungeon",
+      "Search for the Book of Ancient Alchemy",
+      "Collect the Book of Ancient Alchemy",
+      "Survive the ambush",
+      "Leave the dungeon",
+      "Return to the Enchantsmith",
+      "Speak to the Enchantsmith"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/training-with-the-enchantsmith"
+  },
+  {
+    "Id": "CA03",
+    "Name": "Down into the Deep Dark",
+    "Description": "The Illager High Council has been searching for something in the Deep Dark caves. Could this be connected to their plot to dominate the Overworld and the source behind their dangerous new powers?",
+    "Area": "Howling Woods",
+    "Repeatable": false,
+    "XPFirst": 4180,
+    "XPRepeat": 4180,
+    "EmeraldBase": 15,
+    "EmeraldExtra": 15,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.6,
+    "Prerequisites": [
+      "CA02_B"
+    ],
+    "Unlocks": [
+      "CA03_BR",
+      "CA04"
+    ],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.CaveCrawlerChest_Unique"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Twisted Warden Vest"
+      },
+      {
+        "Tags": [
+          "SW.Item.Talisman.SoulGather"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Twisted Tooth"
+      },
+      {
+        "Tags": [
+          "SW.Item.Axe",
+          "SW.Item.Shovel",
+          "SW.Item.Pickaxe",
+          "SW.Item.Daggers",
+          "SW.Item.CurvedLongsword",
+          "SW.Item.Dagger",
+          "SW.Item.Pike",
+          "SW.Item.Scythe",
+          "SW.Item.Cleaver",
+          "SW.Item.Bow",
+          "SW.Item.HeavyCrossbow",
+          "SW.Item.Trickbow",
+          "SW.Item.DualCrossbow",
+          "SW.Item.Artifact.Powershaker",
+          "SW.Item.Artifact.ConductiveBracelet",
+          "SW.Item.Artifact.Grindstone",
+          "SW.Item.Artifact.RedstoneMines",
+          "SW.Item.Artifact.WarriorsDrums",
+          "SW.Item.Artifact.CorruptedSeeds",
+          "SW.Item.Artifact.Satchel.Conductive",
+          "SW.Item.Artifact.IronHideLute",
+          "SW.Item.Artifact.TotemOfShielding",
+          "SW.Item.Artifact.FlameQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Rare",
+        "Label": "One rare item from The Deep Dark"
+      }
+    ],
+    "Tasks": [
+      "CA03_E01",
+      "CA03_E09",
+      "CA03_E10",
+      "CA03_E07",
+      "CA03_E08",
+      "CA03_E06",
+      "CA03_AS02",
+      "CA03_E02",
+      "CA03_I01",
+      "CA03_PC01",
+      "CA03_AS01",
+      "CA03_E03",
+      "CA03_I02",
+      "CA03_Sequence02",
+      "CA03_MT01",
+      "CA03_MT02",
+      "CA03_MT03",
+      "CA03_MT04",
+      "CA03_Sequence01"
+    ],
+    "Objectives": [
+      "Enter the Deep Dark",
+      "Traverse the caves",
+      "Get past the illager defences",
+      "Continue searching the caves",
+      "Navigate the amethyst geode",
+      "Descend the abyss",
+      "Defeat the warden",
+      "Delve deeper...",
+      "Open the gate",
+      "Defeat the Twisted Warden",
+      "Check on the trapped Echo Golem",
+      "Rescue the Echo Golem"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/down-into-the-deep-dark"
+  },
+  {
+    "Id": "CA03_BR",
+    "Name": "The Twisted Warden Revived",
+    "Description": "The runes on the stone seem to be some kind of incantation that could revive the Twisted Warden.",
+    "Area": "Howling Woods",
+    "Repeatable": true,
+    "XPFirst": 550,
+    "XPRepeat": 500,
+    "EmeraldBase": 5,
+    "EmeraldExtra": 5,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.16666666666666666,
+    "Prerequisites": [
+      "CA03"
+    ],
+    "Unlocks": [],
+    "FirstRewards": [
+      {
+        "Tags": [
+          "SW.Item.CaveCrawlerBoots",
+          "SW.Item.CaveCrawlerChest",
+          "SW.Item.CaveCrawlerHelmet",
+          "SW.Item.CaveCrawlerLeggings"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "",
+        "Label": "One of Sculk Digger Boots, Sculk Digger Robe, Sculk Digger Hood, Sculk Digger Leggings"
+      },
+      {
+        "Tags": [
+          "SW.Item.Daggers_Unique1"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Venomous Fangs"
+      }
+    ],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.Axe",
+          "SW.Item.Shovel",
+          "SW.Item.Pickaxe",
+          "SW.Item.Daggers",
+          "SW.Item.CurvedLongsword",
+          "SW.Item.Dagger",
+          "SW.Item.Pike",
+          "SW.Item.Scythe",
+          "SW.Item.Cleaver",
+          "SW.Item.Bow",
+          "SW.Item.HeavyCrossbow",
+          "SW.Item.Trickbow",
+          "SW.Item.DualCrossbow",
+          "SW.Item.Artifact.Powershaker",
+          "SW.Item.Artifact.ConductiveBracelet",
+          "SW.Item.Artifact.Grindstone",
+          "SW.Item.Artifact.RedstoneMines",
+          "SW.Item.Artifact.WarriorsDrums",
+          "SW.Item.Artifact.CorruptedSeeds",
+          "SW.Item.Artifact.Satchel.Conductive",
+          "SW.Item.Artifact.IronHideLute",
+          "SW.Item.Artifact.TotemOfShielding",
+          "SW.Item.Artifact.FlameQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "One special item from The Deep Dark"
+      }
+    ],
+    "Tasks": [
+      "CA03_BR_E01",
+      "CA03_BR_AS01",
+      "CA03_BR_Sequence01"
+    ],
+    "Objectives": [
+      "Enter the arena",
+      "Defeat the Twisted Warden"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/the-twisted-warden-revived"
+  },
+  {
+    "Id": "CA02_B",
+    "Name": "Corruption in the Woods",
+    "Description": "The Cartographer thinks you are ready to search for the entrance to the Deep Dark caves. They suggest you return to Little Howl and make your way deeper into Howling Woods.",
+    "Area": "Howling Woods",
+    "Repeatable": false,
+    "XPFirst": 2750,
+    "XPRepeat": 2750,
+    "EmeraldBase": 12,
+    "EmeraldExtra": 12,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.5,
+    "Prerequisites": [
+      "CA02_C"
+    ],
+    "Unlocks": [
+      "CA03",
+      "CA02_B_BR",
+      "FOa1_S10_A"
+    ],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.HeavyCrossbow"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "Heavy Crossbow"
+      },
+      {
+        "Tags": [
+          "SW.Item.Axe",
+          "SW.Item.Shovel",
+          "SW.Item.ShortSpear",
+          "SW.Item.CurvedLongsword",
+          "SW.Item.Claws",
+          "SW.Item.MoonSword",
+          "SW.Item.Pickaxe",
+          "SW.Item.Daggers",
+          "SW.Item.Dagger",
+          "SW.Item.Sabre",
+          "SW.Item.Glaive",
+          "SW.Item.Battlestaff",
+          "SW.Item.Longbow",
+          "SW.Item.ScatterCrossbow",
+          "SW.Item.HeavyCrossbow",
+          "SW.Item.Greatbow",
+          "SW.Item.RapidCrossbow",
+          "SW.Item.Artifact.CorruptedSeeds",
+          "SW.Item.Artifact.Satchel.Conductive",
+          "SW.Item.Artifact.IronHideLute",
+          "SW.Item.Artifact.TotemOfShielding",
+          "SW.Item.Artifact.BlizzardStaff",
+          "SW.Item.Artifact.DeathcapMushroom",
+          "SW.Item.Artifact.SmokeBomb",
+          "SW.Item.Artifact.WitchesBrew",
+          "SW.Item.Artifact.PoisonQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Rare",
+        "Label": "One rare item from Howling Woods"
+      }
+    ],
+    "Tasks": [
+      "CA02_B_E07",
+      "CA02_B_I09",
+      "CA02_B_E01",
+      "CA02_B_E02",
+      "CA02_B_I01",
+      "CA02_B_E03",
+      "CA02_B_E04",
+      "CA02_B_AS02",
+      "CA02_B_I03",
+      "CA02_B_E05",
+      "CA02_B_I06",
+      "CA02_B_E06",
+      "CA02_B_I07",
+      "CA02_B_PC01",
+      "CA02_B_AS03",
+      "CA02_B_Sequence02",
+      "CA02_B_MT01",
+      "CA02_B_MT02",
+      "CA02_B_I08",
+      "CA02_B_Sequence01"
+    ],
+    "Objectives": [
+      "Return to Little Howl Hamlet",
+      "Speak to the Villager",
+      "Head deeper into Howling Woods",
+      "Search for the Deep Dark caves",
+      "Speak to the Forager",
+      "Enter the Spider Caves",
+      "Find the missing foragers",
+      "Rescue the foragers",
+      "Reach the end of the caves",
+      "Speak to the foragers",
+      "Reach the Witch's hut",
+      "Investigate the cauldron",
+      "Defeat the Witch",
+      "Speak to the Forager"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/corruption-in-the-woods"
+  },
+  {
+    "Id": "CA02_B_BR",
+    "Name": "The Witch Revived",
+    "Description": "The runes on the stone seem to be some kind of incantation that could revive the witch who used to live here.",
+    "Area": "Howling Woods",
+    "Repeatable": true,
+    "XPFirst": 550,
+    "XPRepeat": 500,
+    "EmeraldBase": 5,
+    "EmeraldExtra": 5,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.16666666666666666,
+    "Prerequisites": [
+      "CA02_B"
+    ],
+    "Unlocks": [],
+    "FirstRewards": [
+      {
+        "Tags": [
+          "SW.Item.TimewornBoots",
+          "SW.Item.TimewornChest",
+          "SW.Item.TimewornHelmet",
+          "SW.Item.TimewornLeggings"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "",
+        "Label": "One of Realmreacher Boots, Realmreacher Robe, Realmreacher Hat, Realmreacher Leggings"
+      },
+      {
+        "Tags": [
+          "SW.Item.Claws_Unique1"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Sculker Claws"
+      }
+    ],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.Axe",
+          "SW.Item.Shovel",
+          "SW.Item.ShortSpear",
+          "SW.Item.CurvedLongsword",
+          "SW.Item.Claws",
+          "SW.Item.MoonSword",
+          "SW.Item.Pickaxe",
+          "SW.Item.Daggers",
+          "SW.Item.Dagger",
+          "SW.Item.Sabre",
+          "SW.Item.Glaive",
+          "SW.Item.Battlestaff",
+          "SW.Item.Longbow",
+          "SW.Item.ScatterCrossbow",
+          "SW.Item.HeavyCrossbow",
+          "SW.Item.Greatbow",
+          "SW.Item.RapidCrossbow",
+          "SW.Item.Artifact.CorruptedSeeds",
+          "SW.Item.Artifact.Satchel.Conductive",
+          "SW.Item.Artifact.IronHideLute",
+          "SW.Item.Artifact.TotemOfShielding",
+          "SW.Item.Artifact.BlizzardStaff",
+          "SW.Item.Artifact.DeathcapMushroom",
+          "SW.Item.Artifact.SmokeBomb",
+          "SW.Item.Artifact.WitchesBrew",
+          "SW.Item.Artifact.PoisonQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "One special item from Howling Woods"
+      }
+    ],
+    "Tasks": [
+      "CA02_B_BR_E01",
+      "CA02_B_BR_AS01",
+      "CA02_B_BR_Sequence01"
+    ],
+    "Objectives": [
+      "Approach the witch's hut",
+      "Defeat the witch"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/the-witch-revived"
+  },
+  {
+    "Id": "CA04",
+    "Name": "The Missing Note Blocks",
+    "Description": "The Illager High Council shut down the portal to the Sift and took away two of the note blocks that power it. Without them, the machine can't play the right keys to unlock the portal, and the Echo Golem will be stuck in this dimension forever.",
+    "Area": "Howling Woods",
+    "Repeatable": false,
+    "XPFirst": 1100,
+    "XPRepeat": 1100,
+    "EmeraldBase": 8,
+    "EmeraldExtra": 8,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.375,
+    "Prerequisites": [
+      "CA03"
+    ],
+    "Unlocks": [
+      "CA07",
+      "CT_S01_A",
+      "CT_S03_A"
+    ],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.PhantomBoots",
+          "SW.Item.PhantomChest",
+          "SW.Item.PhantomHelmet",
+          "SW.Item.PhantomLeggings"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "",
+        "Label": "One of Phantom Boots, Phantom Chestplate, Phantom Helmet, Phantom Pants"
+      },
+      {
+        "Tags": [
+          "SW.Item.Talisman.Brawling"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Fist of Iron"
+      },
+      {
+        "Tags": [
+          "SW.Item.Talisman.AmmoCapacity"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Twig of Dark Oak"
+      },
+      {
+        "Tags": [
+          "SW.Item.Axe",
+          "SW.Item.Shovel",
+          "SW.Item.ShortSpear",
+          "SW.Item.CurvedLongsword",
+          "SW.Item.Claws",
+          "SW.Item.MoonSword",
+          "SW.Item.Pickaxe",
+          "SW.Item.Daggers",
+          "SW.Item.Dagger",
+          "SW.Item.Sabre",
+          "SW.Item.Glaive",
+          "SW.Item.Battlestaff",
+          "SW.Item.Longbow",
+          "SW.Item.ScatterCrossbow",
+          "SW.Item.HeavyCrossbow",
+          "SW.Item.Greatbow",
+          "SW.Item.RapidCrossbow",
+          "SW.Item.Artifact.CorruptedSeeds",
+          "SW.Item.Artifact.Satchel.Conductive",
+          "SW.Item.Artifact.IronHideLute",
+          "SW.Item.Artifact.TotemOfShielding",
+          "SW.Item.Artifact.BlizzardStaff",
+          "SW.Item.Artifact.DeathcapMushroom",
+          "SW.Item.Artifact.SmokeBomb",
+          "SW.Item.Artifact.WitchesBrew",
+          "SW.Item.Artifact.PoisonQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Rare",
+        "Label": "One rare item from Howling Woods"
+      }
+    ],
+    "Tasks": [
+      "CA04_E08",
+      "CA04_I10",
+      "CA04_E01",
+      "CA04_I01",
+      "CA04_Standard01",
+      "CA04_Sequence02",
+      "CA04_E02",
+      "CA04_E07",
+      "CA04_AS02",
+      "CA04_I02",
+      "CA04_Sequence03",
+      "CA04_SM01",
+      "CA04_E03",
+      "CA04_AS03",
+      "CA04_I03",
+      "CA04_E04",
+      "CA04_I04",
+      "CA04_Standard03",
+      "CA04_Sequence04",
+      "CA04_I05",
+      "CA04_MT01",
+      "CA04_Sequence05",
+      "CA04_I06",
+      "CA04_MT02",
+      "CA04_AS01",
+      "CA04_Standard02",
+      "CA04_MT03",
+      "CA04_MT04",
+      "CA04_I07",
+      "CA04_Sequence06",
+      "CA04_F01",
+      "CA04_MT05",
+      "CA04_I08",
+      "CA04_E05",
+      "CA04_E06",
+      "CA04_I09",
+      "CA04_Sequence01"
+    ],
+    "Objectives": [
+      "Return to Brave Haven",
+      "Find the Cartographer",
+      "Catch up with the Blacksmith",
+      "Speak to the Blacksmith",
+      "Ambush",
+      "Ambush",
+      "Return to the Blacksmith",
+      "Speak to the Blacksmith",
+      "Defend the woodcutters",
+      "Speak to the Blacksmith",
+      "Return to Brave Haven",
+      "Find the Blacksmith's stall",
+      "Speak to the Blacksmith"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/the-missing-note-blocks"
+  },
+  {
+    "Id": "CA05",
+    "Name": "Hiking Frozen Highlands",
+    "Description": "The villagers of the Frozen Highlands need your help. The Prime Enchanter, a member of the Illager High Council, terrorizes the highlands from some hidden base.",
+    "Area": "Frozen Fortress",
+    "Repeatable": false,
+    "XPFirst": 4180,
+    "XPRepeat": 4180,
+    "EmeraldBase": 15,
+    "EmeraldExtra": 15,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.6,
+    "Prerequisites": [
+      "CA07"
+    ],
+    "Unlocks": [
+      "CA05_BR",
+      "CA06",
+      "CT_S02_A",
+      "DEa1_S13_A",
+      "DEa1_S12_A",
+      "DEa1_S14_A"
+    ],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.GiantMallet"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "Mob Mallet"
+      },
+      {
+        "Tags": [
+          "SW.Item.Sabre",
+          "SW.Item.Glaive",
+          "SW.Item.Battlestaff",
+          "SW.Item.Gauntlet",
+          "SW.Item.Claymore",
+          "SW.Item.WarHammer",
+          "SW.Item.Mace",
+          "SW.Item.Rapier",
+          "SW.Item.Sickles",
+          "SW.Item.ShortSpear",
+          "SW.Item.Claws",
+          "SW.Item.MoonSword",
+          "SW.Item.Shortbow",
+          "SW.Item.RapidCrossbow",
+          "SW.Item.Powerbow",
+          "SW.Item.Longbow",
+          "SW.Item.Artifact.CarapaceOcarina",
+          "SW.Item.Artifact.LightningRod",
+          "SW.Item.Artifact.MaimingMushroom",
+          "SW.Item.Artifact.PoisonBracelet",
+          "SW.Item.Artifact.FightersFife",
+          "SW.Item.Artifact.RallyingHorn",
+          "SW.Item.Artifact.WardingChimes",
+          "SW.Item.Artifact.FrostQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "One special item from Frozen Highlands"
+      }
+    ],
+    "Tasks": [
+      "CA05_E20",
+      "CA05_I18",
+      "CA05_E01",
+      "CA05_I01",
+      "CA05_Standard01",
+      "CA05_Sequence01",
+      "CA05_E02",
+      "CA05_E03",
+      "CA05_Standard04",
+      "CA05_I02",
+      "CA05_I15",
+      "CA05_E17",
+      "CA05_AS01",
+      "CA05_Sequence02",
+      "CA05_E04",
+      "CA05_E05",
+      "CA05_I03",
+      "CA05_E06",
+      "CA05_I05",
+      "CA05_E07",
+      "CA05_I06",
+      "CA05_Standard03",
+      "CA05_Sequence03",
+      "CA05_E08",
+      "CA05_AS04",
+      "CA05_I07",
+      "CA05_Sequence07",
+      "CA05_E18",
+      "CA05_AS05",
+      "CA05_I14",
+      "CA05_E12",
+      "CA05_I11",
+      "CA05_PC01",
+      "CA05_E13",
+      "CA05_E21",
+      "CA05_Standard05",
+      "CA05_I19",
+      "CA05_I20",
+      "CA05_E22",
+      "CA05_E14",
+      "CA05_PC02",
+      "CA05_AS03",
+      "CA05_E15",
+      "CA05_I12",
+      "CA05_PC03",
+      "CA05_E19",
+      "CA05_E16",
+      "CA05_I13",
+      "CA05_PC04",
+      "CA05_Sequence00"
+    ],
+    "Objectives": [
+      "Return to the Woodcutter's Outpost",
+      "Speak to the Frozen Highlands Villager",
+      "Reach Frostrime Village",
+      "Search for survivors",
+      "Find the big shipwreck",
+      "Search the shipwreck for materials",
+      "Leave the shipwreck",
+      "Defeat the illagers",
+      "Find the small shipwreck",
+      "Search the shipwreck for materials",
+      "Find the materials",
+      "Return to the Villager",
+      "Speak to the Villager",
+      "Meet up with the Villager",
+      "Speak to the Villager",
+      "Ambush",
+      "Ambush",
+      "Meet the survivors at the fortress",
+      "Speak to the Villager",
+      "Look for the hidden entrance",
+      "Navigate the fortress",
+      "Cross the bridge",
+      "Navigate the fortress",
+      "Find the fortress entrance",
+      "Defeat the Prime Enchanter",
+      "Search for the note block",
+      "Collect the note block",
+      "Find the fortress entrance",
+      "Open the fortress doors",
+      "Unlock the fortress doors"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/hiking-frozen-highlands"
+  },
+  {
+    "Id": "CA05_BR",
+    "Name": "The Prime Enchanter Revived",
+    "Description": "The runes on the stone seem to be some kind of incantation that could revive the Prime Enchanter.",
+    "Area": "Frozen Fortress",
+    "Repeatable": true,
+    "XPFirst": 550,
+    "XPRepeat": 500,
+    "EmeraldBase": 5,
+    "EmeraldExtra": 5,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.16666666666666666,
+    "Prerequisites": [
+      "CA05"
+    ],
+    "Unlocks": [],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.Talisman.RangedBuff"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Amethyst Lens"
+      },
+      {
+        "Tags": [
+          "SW.Item.Sabre",
+          "SW.Item.Glaive",
+          "SW.Item.Battlestaff",
+          "SW.Item.Gauntlet",
+          "SW.Item.Claymore",
+          "SW.Item.WarHammer",
+          "SW.Item.Mace",
+          "SW.Item.Rapier",
+          "SW.Item.Sickles",
+          "SW.Item.ShortSpear",
+          "SW.Item.Claws",
+          "SW.Item.MoonSword",
+          "SW.Item.Shortbow",
+          "SW.Item.RapidCrossbow",
+          "SW.Item.Powerbow",
+          "SW.Item.Longbow",
+          "SW.Item.Artifact.CarapaceOcarina",
+          "SW.Item.Artifact.LightningRod",
+          "SW.Item.Artifact.MaimingMushroom",
+          "SW.Item.Artifact.PoisonBracelet",
+          "SW.Item.Artifact.FightersFife",
+          "SW.Item.Artifact.RallyingHorn",
+          "SW.Item.Artifact.WardingChimes",
+          "SW.Item.Artifact.FrostQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "One special item from Frozen Highlands"
+      }
+    ],
+    "Tasks": [
+      "CA05_BR_E01",
+      "CA05_BR_AS01",
+      "CA05_BR_Sequence01"
+    ],
+    "Objectives": [
+      "Enter the arena",
+      "Defeat the Prime Enchanter"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/the-prime-enchanter-revived"
+  },
+  {
+    "Id": "CA06",
+    "Name": "Returning the Note Blocks",
+    "Description": "With the note blocks collected, you can finally activate the ancient portal, help your golem friend return to the Sift and start to investigate what the illagers are actually plotting in the new dimension.",
+    "Area": "The Deep Dark",
+    "Repeatable": false,
+    "XPFirst": 2750,
+    "XPRepeat": 2750,
+    "EmeraldBase": 12,
+    "EmeraldExtra": 12,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.5,
+    "Prerequisites": [
+      "CA05"
+    ],
+    "Unlocks": [
+      "CA08"
+    ],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.Talisman.HealthyStrike"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Tendrils of the Sprout"
+      },
+      {
+        "Tags": [
+          "SW.Item.Axe",
+          "SW.Item.Shovel",
+          "SW.Item.Pickaxe",
+          "SW.Item.Daggers",
+          "SW.Item.CurvedLongsword",
+          "SW.Item.Dagger",
+          "SW.Item.Pike",
+          "SW.Item.Scythe",
+          "SW.Item.Cleaver",
+          "SW.Item.Bow",
+          "SW.Item.HeavyCrossbow",
+          "SW.Item.Trickbow",
+          "SW.Item.DualCrossbow",
+          "SW.Item.Artifact.Powershaker",
+          "SW.Item.Artifact.ConductiveBracelet",
+          "SW.Item.Artifact.Grindstone",
+          "SW.Item.Artifact.RedstoneMines",
+          "SW.Item.Artifact.WarriorsDrums",
+          "SW.Item.Artifact.CorruptedSeeds",
+          "SW.Item.Artifact.Satchel.Conductive",
+          "SW.Item.Artifact.IronHideLute",
+          "SW.Item.Artifact.TotemOfShielding",
+          "SW.Item.Artifact.FlameQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "One special item from The Deep Dark"
+      }
+    ],
+    "Tasks": [
+      "CA06_E02",
+      "CA06_I02",
+      "CA06_E03",
+      "CA06_E04",
+      "CA06_I04",
+      "CA06_PC01",
+      "CA06_I05",
+      "CA06_PC02",
+      "CA06_Sequence01"
+    ],
+    "Objectives": [
+      "Return to Brave Haven",
+      "Speak to the Cartographer",
+      "Reach the Deep Dark tunnel",
+      "Return to the ancient portal",
+      "Activate the portal",
+      "Enter the portal"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/returning-the-note-blocks"
+  },
+  {
+    "Id": "CA07",
+    "Name": "Wading Rainy Plains",
+    "Description": "In your quest to retrieve the note blocks, the Cartographer of Brave Haven has sent you to Rainy Plains, where the Supreme Evoker, a member of the Illager High Council, is conducting horrific experiments.",
+    "Area": "Rainy Plains",
+    "Repeatable": false,
+    "XPFirst": 2750,
+    "XPRepeat": 2750,
+    "EmeraldBase": 12,
+    "EmeraldExtra": 12,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.5,
+    "Prerequisites": [
+      "CA04"
+    ],
+    "Unlocks": [
+      "CA05",
+      "CA07_BR",
+      "CT_S04_A",
+      "PLa2_S15_A",
+      "PLa2_S16_A",
+      "PLa2_S17_A"
+    ],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.Scythe"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "Scythe"
+      },
+      {
+        "Tags": [
+          "SW.Item.CurvedGreatsword",
+          "SW.Item.Hammer",
+          "SW.Item.StraightSword",
+          "SW.Item.Daggers",
+          "SW.Item.CurvedLongsword",
+          "SW.Item.Dagger",
+          "SW.Item.Sword",
+          "SW.Item.Greatsword",
+          "SW.Item.Gauntlet",
+          "SW.Item.Claymore",
+          "SW.Item.WarHammer",
+          "SW.Item.Trickbow",
+          "SW.Item.Greatbow",
+          "SW.Item.DualCrossbow",
+          "SW.Item.Bow",
+          "SW.Item.ScatterCrossbow",
+          "SW.Item.Artifact.FireBracelet",
+          "SW.Item.Artifact.Satchel.Poison",
+          "SW.Item.Artifact.PicnicBlanket",
+          "SW.Item.Artifact.TotemOfRegeneration",
+          "SW.Item.Artifact.FlameSceptre",
+          "SW.Item.Artifact.HasteMushroom",
+          "SW.Item.Artifact.SoulHarvester",
+          "SW.Item.Artifact.TotemOfCasting",
+          "SW.Item.Artifact.LightningQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "One special item from Rainy Plains"
+      }
+    ],
+    "Tasks": [
+      "CA07_E26",
+      "CA07_I18",
+      "CA07_E01",
+      "CA07_E03",
+      "CA07_I12",
+      "CA07_I02",
+      "CA07_E02",
+      "CA07_I19",
+      "CA07_E16",
+      "CA07_E22",
+      "CA07_Sequence02",
+      "CA07_Sequence05",
+      "CA07_E04",
+      "CA07_I04",
+      "CA07_E23",
+      "CA07_I05",
+      "CA07_Sequence03",
+      "CA07_Sequence06",
+      "CA07_E06",
+      "CA07_I06",
+      "CA07_E24",
+      "CA07_I07",
+      "CA07_Sequence04",
+      "CA07_Sequence07",
+      "CA07_E08",
+      "CA07_I08",
+      "CA07_E25",
+      "CA07_I09",
+      "CA07_E17",
+      "CA07_E19",
+      "CA07_E20",
+      "CA07_AS02",
+      "CA07_MT01",
+      "CA07_I15",
+      "CA07_E14",
+      "CA07_I10",
+      "CA07_PC01",
+      "CA07_AS01",
+      "CA07_E15",
+      "CA07_I11",
+      "CA07_PC02",
+      "CA07_E21",
+      "CA07_I16",
+      "CA07_Sequence01"
+    ],
+    "Objectives": [
+      "Return to Woodcutter's Outpost",
+      "Speak to the Villager",
+      "Find Puddle Pond Village",
+      "Ask around for information",
+      "Speak to the Inventor",
+      "Find the first bridge",
+      "Place the ichor core",
+      "Cross the bridge",
+      "Find the White Tower's ichor core",
+      "Find the bridge to the Orange Tower",
+      "Place the ichor core",
+      "Find the bridge to the Red Tower",
+      "Place the ichor core",
+      "Find the bridge to the Supreme Evoker's Tower",
+      "Place the ichor core",
+      "Reach the Supreme Evoker's Tower",
+      "Enter the Supreme Evoker's Tower",
+      "Search for the Supreme Evoker",
+      "Defeat the ambush",
+      "Check on the Villager",
+      "Go after the Supreme Evoker",
+      "Investigate the copper",
+      "Defeat the Copper Monstrosity",
+      "Search for the note block",
+      "Collect the note block",
+      "Return to Puddle Pond Village",
+      "Speak to the Villager"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/wading-rainy-plains"
+  },
+  {
+    "Id": "CA07_BR",
+    "Name": "The Copper Monstrosity Revived",
+    "Description": "The runes on the stone seem to be some kind of incantation that could revive the Copper Monstrosity.",
+    "Area": "Rainy Plains",
+    "Repeatable": true,
+    "XPFirst": 1100,
+    "XPRepeat": 1000,
+    "EmeraldBase": 8,
+    "EmeraldExtra": 8,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.375,
+    "Prerequisites": [
+      "CA07"
+    ],
+    "Unlocks": [],
+    "FirstRewards": [
+      {
+        "Tags": [
+          "SW.Item.Pike_Unique1"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Stormcaller"
+      }
+    ],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.CurvedGreatsword",
+          "SW.Item.Hammer",
+          "SW.Item.StraightSword",
+          "SW.Item.Daggers",
+          "SW.Item.CurvedLongsword",
+          "SW.Item.Dagger",
+          "SW.Item.Sword",
+          "SW.Item.Greatsword",
+          "SW.Item.Gauntlet",
+          "SW.Item.Claymore",
+          "SW.Item.WarHammer",
+          "SW.Item.Trickbow",
+          "SW.Item.Greatbow",
+          "SW.Item.DualCrossbow",
+          "SW.Item.Bow",
+          "SW.Item.ScatterCrossbow",
+          "SW.Item.Artifact.FireBracelet",
+          "SW.Item.Artifact.Satchel.Poison",
+          "SW.Item.Artifact.PicnicBlanket",
+          "SW.Item.Artifact.TotemOfRegeneration",
+          "SW.Item.Artifact.FlameSceptre",
+          "SW.Item.Artifact.HasteMushroom",
+          "SW.Item.Artifact.SoulHarvester",
+          "SW.Item.Artifact.TotemOfCasting",
+          "SW.Item.Artifact.LightningQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "One special item from Rainy Plains"
+      }
+    ],
+    "Tasks": [
+      "CA07_BR_E01",
+      "CA07_BR_AS01",
+      "CA07_BR_Sequence01"
+    ],
+    "Objectives": [
+      "Enter the arena",
+      "Defeat the Copper Monstrosity"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/the-copper-monstrosity-revived"
+  },
+  {
+    "Id": "CA08",
+    "Name": "Lost Harmonies",
+    "Description": "The mystical Singer of the Sift is worried about their echo golems. Usually, they can hear their songs even from far away, but now many of the echo golems have gone quiet.",
+    "Area": "Singer's Meadow",
+    "Repeatable": false,
+    "XPFirst": 2750,
+    "XPRepeat": 2750,
+    "EmeraldBase": 12,
+    "EmeraldExtra": 12,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.5,
+    "Prerequisites": [
+      "CA06"
+    ],
+    "Unlocks": [
+      "CA08_B",
+      "MEa1_S05_A",
+      "MEa1_S06_A"
+    ],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.VoyagerBoots",
+          "SW.Item.VoyagerChest",
+          "SW.Item.VoyagerHelmet",
+          "SW.Item.VoyagerLeggings"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "",
+        "Label": "One of Nomad Boots, Nomad Chestplate, Nomad Hood, Nomad Leggings"
+      },
+      {
+        "Tags": [
+          "SW.Item.Sword",
+          "SW.Item.Greatsword",
+          "SW.Item.CurvedGreatsword",
+          "SW.Item.Hammer",
+          "SW.Item.StraightSword",
+          "SW.Item.GreatAxe",
+          "SW.Item.GiantClub",
+          "SW.Item.GiantMallet",
+          "SW.Item.Powerbow",
+          "SW.Item.Longbow",
+          "SW.Item.Trickbow",
+          "SW.Item.Artifact.FlameSceptre",
+          "SW.Item.Artifact.HasteMushroom",
+          "SW.Item.Artifact.SoulHarvester",
+          "SW.Item.Artifact.TotemOfCasting",
+          "SW.Item.Artifact.FrostBracelet",
+          "SW.Item.Artifact.Satchel.Fire",
+          "SW.Item.Artifact.Powershaker",
+          "SW.Item.Artifact.WarBanner",
+          "SW.Item.Artifact.LightningQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "One special item from Singer's Meadow"
+      }
+    ],
+    "Tasks": [
+      "CA08_E01",
+      "CA08_Standard01",
+      "CA08_Sequence02",
+      "CA08_E04",
+      "CA08_AS03",
+      "CA08_I02",
+      "CA08_Sequence03",
+      "CA08_E05",
+      "CA08_AS04",
+      "CA08_I04",
+      "CA08_Sequence04",
+      "CA08_I06",
+      "CA08_Sequence05",
+      "CA08_I09",
+      "CA08_E02",
+      "CA08_AS01",
+      "CA08_I07",
+      "CA08_E03",
+      "CA08_AS02",
+      "CA08_I08",
+      "CA08_PC01",
+      "CA08_Sequence01"
+    ],
+    "Objectives": [
+      "Find the silenced echo golems",
+      "Ambush",
+      "Ambush",
+      "Find the stolen soul blocks",
+      "Defeat the illagers",
+      "Check on the Echo Golem",
+      "Head back to defend the Singer",
+      "Defend Singer's Meadow",
+      "Check on the Singer"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/lost-harmonies"
+  },
+  {
+    "Id": "CA08_B",
+    "Name": "A Monstrosity in the Meadow",
+    "Description": "The Singer is grateful that you stopped the illagers from taking control of this portal, but the roots of the illager invasion lead much deeper into the Sift. They must be in control of another portal somewhere beyond Singer's Meadow.",
+    "Area": "Singer's Meadow",
+    "Repeatable": false,
+    "XPFirst": 2750,
+    "XPRepeat": 2750,
+    "EmeraldBase": 12,
+    "EmeraldExtra": 12,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.5,
+    "Prerequisites": [
+      "CA08"
+    ],
+    "Unlocks": [
+      "CA09",
+      "CA09_BR"
+    ],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.Claws_Unique1"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Sculker Claws"
+      },
+      {
+        "Tags": [
+          "SW.Item.Sword",
+          "SW.Item.Greatsword",
+          "SW.Item.CurvedGreatsword",
+          "SW.Item.Hammer",
+          "SW.Item.StraightSword",
+          "SW.Item.GreatAxe",
+          "SW.Item.GiantClub",
+          "SW.Item.GiantMallet",
+          "SW.Item.Powerbow",
+          "SW.Item.Longbow",
+          "SW.Item.Trickbow",
+          "SW.Item.Artifact.FlameSceptre",
+          "SW.Item.Artifact.HasteMushroom",
+          "SW.Item.Artifact.SoulHarvester",
+          "SW.Item.Artifact.TotemOfCasting",
+          "SW.Item.Artifact.FrostBracelet",
+          "SW.Item.Artifact.Satchel.Fire",
+          "SW.Item.Artifact.Powershaker",
+          "SW.Item.Artifact.WarBanner",
+          "SW.Item.Artifact.LightningQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "One special item from Singer's Meadow"
+      }
+    ],
+    "Tasks": [
+      "CA08_B_E01",
+      "CA08_B_Sequence05",
+      "CA08_B_Standard03",
+      "CA08_B_E06",
+      "CA08_B_E07",
+      "CA08_B_E08",
+      "CA08_B_E02",
+      "CA08_B_E03",
+      "CA08_B_I04",
+      "CA08_B_Standard01",
+      "CA08_B_Standard02",
+      "CA08_B_Sequence02",
+      "CA08_B_SM02",
+      "CA08_B_I01",
+      "CA08_B_Sequence04",
+      "CA08_B_SM03",
+      "CA08_B_I02",
+      "CA08_B_Sequence03",
+      "CA08_B_SM04",
+      "CA08_B_I03",
+      "CA08_B_SM01",
+      "CA08_B_E04",
+      "CA08_B_E05",
+      "CA08_B_AS01",
+      "CA08_B_Sequence01"
+    ],
+    "Objectives": [
+      "Reach the musical gate",
+      "Find the pass to Humbler Huskland",
+      "Investigate the gate",
+      "Return to the illager gate",
+      "Pass the illager gate",
+      "Defeat the Sculk Monstrosity"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/a-monstrosity-in-the-meadow"
+  },
+  {
+    "Id": "CA09",
+    "Name": "Wrath of the Sculkers",
+    "Description": "The illagers are trying to harvest the soul-rich ichor, but this is angering the territorial sculkers. Even the sculker Monarch is stirring.",
+    "Area": "Humbler Huskland",
+    "Repeatable": false,
+    "XPFirst": 4180,
+    "XPRepeat": 4180,
+    "EmeraldBase": 15,
+    "EmeraldExtra": 15,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.6,
+    "Prerequisites": [
+      "CA08_B"
+    ],
+    "Unlocks": [
+      "CA10",
+      "CAa1_S03_A",
+      "CAa1_S02_A"
+    ],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.Artifact.CarapaceOcarina"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "Echo Ocarina"
+      },
+      {
+        "Tags": [
+          "SW.Item.Shortbow"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "Shortbow"
+      },
+      {
+        "Tags": [
+          "SW.Item.Talisman.ExperienceIncrease"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "The Eye of Experience"
+      },
+      {
+        "Tags": [
+          "SW.Item.GreatAxe",
+          "SW.Item.GiantClub",
+          "SW.Item.GiantMallet",
+          "SW.Item.Pike",
+          "SW.Item.Scythe",
+          "SW.Item.Cleaver",
+          "SW.Item.Axe",
+          "SW.Item.Shovel",
+          "SW.Item.Pickaxe",
+          "SW.Item.CurvedGreatsword",
+          "SW.Item.Hammer",
+          "SW.Item.StraightSword",
+          "SW.Item.Crossbow",
+          "SW.Item.HeavyCrossbow",
+          "SW.Item.Greatbow",
+          "SW.Item.Shortbow",
+          "SW.Item.Artifact.FrostBracelet",
+          "SW.Item.Artifact.Satchel.Fire",
+          "SW.Item.Artifact.Powershaker",
+          "SW.Item.Artifact.WarBanner",
+          "SW.Item.Artifact.CarapaceOcarina",
+          "SW.Item.Artifact.LightningRod",
+          "SW.Item.Artifact.MaimingMushroom",
+          "SW.Item.Artifact.FireworkQuiver",
+          "SW.Item.Artifact.FlameQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          11,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "One special item from Humbler Huskland"
+      }
+    ],
+    "Tasks": [],
+    "Objectives": [
+      "Reach the Echo Den",
+      "Speak to the Echo Golem",
+      "Pass the musical gate",
+      "Find the passage to Lullaby Hills",
+      "Speak to the Echo Golem",
+      "Find the ichor cores",
+      "Defeat the ambush",
+      "Enter the sculker nest",
+      "Search the sculker nest",
+      "Defeat the Monarch",
+      "Find the ichor cores",
+      "Return to the Echo Golem",
+      "Find the Golem's friend",
+      "Speak to the Echo Golem"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/wrath-of-the-sculkers"
+  },
+  {
+    "Id": "CA09_BR",
+    "Name": "The Sculk Monstrosity Revived",
+    "Description": "The runes on the stone seem to be some kind of incantation that could revive the Sculk Monstrosity.",
+    "Area": "Singer's Meadow",
+    "Repeatable": true,
+    "XPFirst": 1100,
+    "XPRepeat": 1000,
+    "EmeraldBase": 8,
+    "EmeraldExtra": 8,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.375,
+    "Prerequisites": [
+      "CA08_B"
+    ],
+    "Unlocks": [],
+    "FirstRewards": [
+      {
+        "Tags": [
+          "SW.Item.Trickbow_Unique1"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Phantom Wing"
+      },
+      {
+        "Tags": [
+          "SW.Item.Dagger_Unique1"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Sculker's Bane"
+      },
+      {
+        "Tags": [
+          "SW.Item.Artifact.CarapaceOcarina",
+          "SW.Item.Artifact.FightersFife",
+          "SW.Item.Artifact.IronHideLute",
+          "SW.Item.Artifact.RallyingHorn",
+          "SW.Item.Artifact.SoulHarvester",
+          "SW.Item.Artifact.WarriorsDrums"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "",
+        "Label": "One of Echo Ocarina, Fighter's Flute, Turtle Master's Mandolin, Humbling Horn, Soul Harvester, Warrior Drums"
+      },
+      {
+        "Tags": [
+          "SW.Item.Sword",
+          "SW.Item.Greatsword",
+          "SW.Item.CurvedGreatsword",
+          "SW.Item.Hammer",
+          "SW.Item.StraightSword",
+          "SW.Item.GreatAxe",
+          "SW.Item.GiantClub",
+          "SW.Item.GiantMallet",
+          "SW.Item.Powerbow",
+          "SW.Item.Longbow",
+          "SW.Item.Trickbow",
+          "SW.Item.Artifact.FlameSceptre",
+          "SW.Item.Artifact.HasteMushroom",
+          "SW.Item.Artifact.SoulHarvester",
+          "SW.Item.Artifact.TotemOfCasting",
+          "SW.Item.Artifact.FrostBracelet",
+          "SW.Item.Artifact.Satchel.Fire",
+          "SW.Item.Artifact.Powershaker",
+          "SW.Item.Artifact.WarBanner",
+          "SW.Item.Artifact.LightningQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "One special item from Singer's Meadow"
+      },
+      {
+        "Tags": [
+          "SW.Item.Sword",
+          "SW.Item.Greatsword",
+          "SW.Item.CurvedGreatsword",
+          "SW.Item.Hammer",
+          "SW.Item.StraightSword",
+          "SW.Item.GreatAxe",
+          "SW.Item.GiantClub",
+          "SW.Item.GiantMallet",
+          "SW.Item.Powerbow",
+          "SW.Item.Longbow",
+          "SW.Item.Trickbow",
+          "SW.Item.Artifact.FlameSceptre",
+          "SW.Item.Artifact.HasteMushroom",
+          "SW.Item.Artifact.SoulHarvester",
+          "SW.Item.Artifact.TotemOfCasting",
+          "SW.Item.Artifact.FrostBracelet",
+          "SW.Item.Artifact.Satchel.Fire",
+          "SW.Item.Artifact.Powershaker",
+          "SW.Item.Artifact.WarBanner",
+          "SW.Item.Artifact.LightningQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "One special item from Singer's Meadow"
+      }
+    ],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.Sword",
+          "SW.Item.Greatsword",
+          "SW.Item.CurvedGreatsword",
+          "SW.Item.Hammer",
+          "SW.Item.StraightSword",
+          "SW.Item.GreatAxe",
+          "SW.Item.GiantClub",
+          "SW.Item.GiantMallet",
+          "SW.Item.Powerbow",
+          "SW.Item.Longbow",
+          "SW.Item.Trickbow",
+          "SW.Item.Artifact.FlameSceptre",
+          "SW.Item.Artifact.HasteMushroom",
+          "SW.Item.Artifact.SoulHarvester",
+          "SW.Item.Artifact.TotemOfCasting",
+          "SW.Item.Artifact.FrostBracelet",
+          "SW.Item.Artifact.Satchel.Fire",
+          "SW.Item.Artifact.Powershaker",
+          "SW.Item.Artifact.WarBanner",
+          "SW.Item.Artifact.LightningQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "One special item from Singer's Meadow"
+      }
+    ],
+    "Tasks": [],
+    "Objectives": [
+      "Enter the arena",
+      "Defeat the Sculk Monstrosity"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/the-sculk-monstrosity-revived"
+  },
+  {
+    "Id": "CA10",
+    "Name": "The Final Souldown",
+    "Description": "Your journey through the Sift has brought you to the ravaged Lullaby Hills, where the Illagers are said to have opened a portal back to the Overworld and are pumping out all the souly ichor, the lifeblood of this dimension.",
+    "Area": "Humbler Huskland",
+    "Repeatable": false,
+    "XPFirst": 4180,
+    "XPRepeat": 4180,
+    "EmeraldBase": 15,
+    "EmeraldExtra": 15,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.6,
+    "Prerequisites": [
+      "CA09"
+    ],
+    "Unlocks": [
+      "CA10_BR",
+      "CA10_BR_B",
+      "MEa2_S02_A"
+    ],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.Hammer_Unique1"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Emerald Hammer"
+      },
+      {
+        "Tags": [
+          "SW.Item.StalwartBoots_Unique",
+          "SW.Item.StalwartChest_Unique",
+          "SW.Item.StalwartHelmet_Unique",
+          "SW.Item.StalwartLeggings_Unique"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "",
+        "Label": "One of Humbler Tarsi, Humbler Carapace, Humbler Antenna, Humbler Greaves"
+      },
+      {
+        "Tags": [
+          "SW.Item.Talisman.IronGolem"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Golem Kit"
+      },
+      {
+        "Tags": [
+          "SW.Item.GreatAxe",
+          "SW.Item.GiantClub",
+          "SW.Item.GiantMallet",
+          "SW.Item.Pike",
+          "SW.Item.Scythe",
+          "SW.Item.Cleaver",
+          "SW.Item.Axe",
+          "SW.Item.Shovel",
+          "SW.Item.Pickaxe",
+          "SW.Item.CurvedGreatsword",
+          "SW.Item.Hammer",
+          "SW.Item.StraightSword",
+          "SW.Item.Crossbow",
+          "SW.Item.HeavyCrossbow",
+          "SW.Item.Greatbow",
+          "SW.Item.Shortbow",
+          "SW.Item.Artifact.FrostBracelet",
+          "SW.Item.Artifact.Satchel.Fire",
+          "SW.Item.Artifact.Powershaker",
+          "SW.Item.Artifact.WarBanner",
+          "SW.Item.Artifact.CarapaceOcarina",
+          "SW.Item.Artifact.LightningRod",
+          "SW.Item.Artifact.MaimingMushroom",
+          "SW.Item.Artifact.FireworkQuiver",
+          "SW.Item.Artifact.FlameQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          11,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Unique",
+        "Label": "One unique item from Humbler Huskland"
+      }
+    ],
+    "Tasks": [],
+    "Objectives": [
+      "Search for the echo golems",
+      "Investigate the area",
+      "Open the musical gate",
+      "Catch up with the Echo Golem",
+      "Speak to the Echo Golem",
+      "Defeat the illagers",
+      "Check on the scared Golem",
+      "Speak to the Scared Golem",
+      "Accept the Golem's soul block",
+      "Place the soul block",
+      "Find a way across the chasm",
+      "Open the gate",
+      "Find a way across the chasm",
+      "Defeat the Redstone Monstrosity",
+      "Cross the chasm",
+      "Storm the stronghold",
+      "Cut across the courtyard",
+      "Climb the ramparts",
+      "Clear the ramparts",
+      "Survive the ambush",
+      "Clear the ramparts",
+      "Cross the gap",
+      "Reach the portal",
+      "Stand your ground",
+      "Enter the portal",
+      "Follow the ichor pipes",
+      "Investigate the experiment",
+      "Defeat the Supreme Evoker",
+      "Defeat the Monstrous Opus",
+      "Pick up the soul block"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/the-final-souldown"
+  },
+  {
+    "Id": "CA10_BR",
+    "Name": "The Final Souldown Encore",
+    "Description": "The runes on the stone seem to be some kind of incantation that could revive the Supreme Evoker.",
+    "Area": "Lullaby Hills",
+    "Repeatable": true,
+    "XPFirst": 2750,
+    "XPRepeat": 2500,
+    "EmeraldBase": 12,
+    "EmeraldExtra": 12,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.5,
+    "Prerequisites": [
+      "CA10"
+    ],
+    "Unlocks": [],
+    "FirstRewards": [
+      {
+        "Tags": [
+          "SW.Item.Sickles_Unique1"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Sift Sickles"
+      },
+      {
+        "Tags": [
+          "SW.Item.TimewornBoots_Unique",
+          "SW.Item.TimewornChest_Unique",
+          "SW.Item.TimewornHelmet_Unique",
+          "SW.Item.TimewornLeggings_Unique"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "",
+        "Label": "One of Soul Corruptor Sandals, Soul Corruptor Duster, Soul Corruptor Mask, Soul Corruptor Sash"
+      },
+      {
+        "Tags": [
+          "SW.Item.ScatterCrossbow_Unique1"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Harp Crossbow"
+      },
+      {
+        "Tags": [
+          "SW.Item.Artifact.SoulHarvester"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "Soul Harvester"
+      },
+      {
+        "Tags": [
+          "SW.Item.ShortSpear",
+          "SW.Item.Claws",
+          "SW.Item.MoonSword",
+          "SW.Item.Gauntlet",
+          "SW.Item.Claymore",
+          "SW.Item.WarHammer",
+          "SW.Item.Pike",
+          "SW.Item.Scythe",
+          "SW.Item.ScatterCrossbow",
+          "SW.Item.DualCrossbow",
+          "SW.Item.Artifact.CorruptedBeacon",
+          "SW.Item.Artifact.Satchel.Freezing",
+          "SW.Item.Artifact.Honeypot",
+          "SW.Item.Artifact.CreeperCandle",
+          "SW.Item.Artifact.ConductiveBracelet",
+          "SW.Item.Artifact.Grindstone",
+          "SW.Item.Artifact.RedstoneMines",
+          "SW.Item.Artifact.WarriorsDrums",
+          "SW.Item.Cleaver",
+          "SW.Item.Artifact.FrostQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "One special item from Lullaby Hills"
+      },
+      {
+        "Tags": [
+          "SW.Item.ShortSpear",
+          "SW.Item.Claws",
+          "SW.Item.MoonSword",
+          "SW.Item.Gauntlet",
+          "SW.Item.Claymore",
+          "SW.Item.WarHammer",
+          "SW.Item.Pike",
+          "SW.Item.Scythe",
+          "SW.Item.ScatterCrossbow",
+          "SW.Item.DualCrossbow",
+          "SW.Item.Artifact.CorruptedBeacon",
+          "SW.Item.Artifact.Satchel.Freezing",
+          "SW.Item.Artifact.Honeypot",
+          "SW.Item.Artifact.CreeperCandle",
+          "SW.Item.Artifact.ConductiveBracelet",
+          "SW.Item.Artifact.Grindstone",
+          "SW.Item.Artifact.RedstoneMines",
+          "SW.Item.Artifact.WarriorsDrums",
+          "SW.Item.Cleaver",
+          "SW.Item.Artifact.FrostQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "One special item from Lullaby Hills"
+      }
+    ],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.ShortSpear",
+          "SW.Item.Claws",
+          "SW.Item.MoonSword",
+          "SW.Item.Gauntlet",
+          "SW.Item.Claymore",
+          "SW.Item.WarHammer",
+          "SW.Item.Pike",
+          "SW.Item.Scythe",
+          "SW.Item.ScatterCrossbow",
+          "SW.Item.DualCrossbow",
+          "SW.Item.Artifact.CorruptedBeacon",
+          "SW.Item.Artifact.Satchel.Freezing",
+          "SW.Item.Artifact.Honeypot",
+          "SW.Item.Artifact.CreeperCandle",
+          "SW.Item.Artifact.ConductiveBracelet",
+          "SW.Item.Artifact.Grindstone",
+          "SW.Item.Artifact.RedstoneMines",
+          "SW.Item.Artifact.WarriorsDrums",
+          "SW.Item.Cleaver",
+          "SW.Item.Artifact.FrostQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "One special item from Lullaby Hills"
+      }
+    ],
+    "Tasks": [],
+    "Objectives": [
+      "Enter the arena",
+      "Defeat the Supreme Evoker",
+      "Investigate the experiment",
+      "Defeat the Monstrous Opus"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/the-final-souldown-encore"
+  },
+  {
+    "Id": "CA10_BR_B",
+    "Name": "The Redstone Monstrosity Revived",
+    "Description": "The runes on the stone seem to be some kind of incantation that could revive the Redstone Monstrosity.",
+    "Area": "Lullaby Hills",
+    "Repeatable": true,
+    "XPFirst": 1100,
+    "XPRepeat": 1000,
+    "EmeraldBase": 8,
+    "EmeraldExtra": 8,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.375,
+    "Prerequisites": [
+      "CA10"
+    ],
+    "Unlocks": [],
+    "FirstRewards": [
+      {
+        "Tags": [
+          "SW.Item.Artifact.CreeperCandle",
+          "SW.Item.Artifact.FireBracelet",
+          "SW.Item.Artifact.FireworkQuiver",
+          "SW.Item.Artifact.FlameQuiver",
+          "SW.Item.Artifact.FlameSceptre",
+          "SW.Item.Artifact.RedstoneMines",
+          "SW.Item.Artifact.Satchel.Fire"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "",
+        "Label": "One of Creeper Candle, Blaze Bangle, Firework Arrow, Flaming Quiver, Cinder Scepter, Redstone Mine Launcher, Pouch of Ember"
+      },
+      {
+        "Tags": [
+          "SW.Item.GiantClub_Unique1"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Redstone Wrecker"
+      },
+      {
+        "Tags": [
+          "SW.Item.RedstoneBoots_Unique",
+          "SW.Item.RedstoneChest_Unique",
+          "SW.Item.RedstoneHelmet_Unique",
+          "SW.Item.RedstoneLeggings_Unique"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "",
+        "Label": "One of Monstrosity Stompers, Monstrosity Armor, Monstrosity Horns, Monstrosity Greaves"
+      },
+      {
+        "Tags": [
+          "SW.Item.ShortSpear",
+          "SW.Item.Claws",
+          "SW.Item.MoonSword",
+          "SW.Item.Gauntlet",
+          "SW.Item.Claymore",
+          "SW.Item.WarHammer",
+          "SW.Item.Pike",
+          "SW.Item.Scythe",
+          "SW.Item.ScatterCrossbow",
+          "SW.Item.DualCrossbow",
+          "SW.Item.Artifact.CorruptedBeacon",
+          "SW.Item.Artifact.Satchel.Freezing",
+          "SW.Item.Artifact.Honeypot",
+          "SW.Item.Artifact.CreeperCandle",
+          "SW.Item.Artifact.ConductiveBracelet",
+          "SW.Item.Artifact.Grindstone",
+          "SW.Item.Artifact.RedstoneMines",
+          "SW.Item.Artifact.WarriorsDrums",
+          "SW.Item.Cleaver",
+          "SW.Item.Artifact.FrostQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "One special item from Lullaby Hills"
+      },
+      {
+        "Tags": [
+          "SW.Item.ShortSpear",
+          "SW.Item.Claws",
+          "SW.Item.MoonSword",
+          "SW.Item.Gauntlet",
+          "SW.Item.Claymore",
+          "SW.Item.WarHammer",
+          "SW.Item.Pike",
+          "SW.Item.Scythe",
+          "SW.Item.ScatterCrossbow",
+          "SW.Item.DualCrossbow",
+          "SW.Item.Artifact.CorruptedBeacon",
+          "SW.Item.Artifact.Satchel.Freezing",
+          "SW.Item.Artifact.Honeypot",
+          "SW.Item.Artifact.CreeperCandle",
+          "SW.Item.Artifact.ConductiveBracelet",
+          "SW.Item.Artifact.Grindstone",
+          "SW.Item.Artifact.RedstoneMines",
+          "SW.Item.Artifact.WarriorsDrums",
+          "SW.Item.Cleaver",
+          "SW.Item.Artifact.FrostQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "One special item from Lullaby Hills"
+      }
+    ],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.ShortSpear",
+          "SW.Item.Claws",
+          "SW.Item.MoonSword",
+          "SW.Item.Gauntlet",
+          "SW.Item.Claymore",
+          "SW.Item.WarHammer",
+          "SW.Item.Pike",
+          "SW.Item.Scythe",
+          "SW.Item.ScatterCrossbow",
+          "SW.Item.DualCrossbow",
+          "SW.Item.Artifact.CorruptedBeacon",
+          "SW.Item.Artifact.Satchel.Freezing",
+          "SW.Item.Artifact.Honeypot",
+          "SW.Item.Artifact.CreeperCandle",
+          "SW.Item.Artifact.ConductiveBracelet",
+          "SW.Item.Artifact.Grindstone",
+          "SW.Item.Artifact.RedstoneMines",
+          "SW.Item.Artifact.WarriorsDrums",
+          "SW.Item.Cleaver",
+          "SW.Item.Artifact.FrostQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "One special item from Lullaby Hills"
+      }
+    ],
+    "Tasks": [],
+    "Objectives": [
+      "Enter the Arena",
+      "Defeat the Redstone Monstrosity"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/the-redstone-monstrosity-revived"
+  },
+  {
+    "Id": "FOa1_S08_A",
+    "Name": "Part of the Pack",
+    "Description": "Illager poachers are hunting down and caging the wolves of the forest.",
+    "Area": "Howling Woods",
+    "Repeatable": false,
+    "XPFirst": 550,
+    "XPRepeat": 550,
+    "EmeraldBase": 5,
+    "EmeraldExtra": 5,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.16666666666666666,
+    "Prerequisites": [
+      "CA02_C"
+    ],
+    "Unlocks": [],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.Claws"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "Rare",
+        "Label": "Wolf Claws"
+      }
+    ],
+    "Tasks": [
+      "FOa1_S08_A_E03",
+      "FOa1_S08_A_I12",
+      "FOa1_S08_A_Sequence02",
+      "FOa1_S08_A_E01",
+      "FOa1_S08_A_AS01",
+      "FOa1_S08_A_Standard01",
+      "FOa1_S08_A_I01",
+      "FOa1_S08_A_I05",
+      "FOa1_S08_A_E04",
+      "FOa1_S08_A_I11",
+      "FOa1_S08_A_E02",
+      "FOa1_S08_A_AS02",
+      "FOa1_S08_A_Standard02",
+      "FOa1_S08_A_I06",
+      "FOa1_S08_A_I07",
+      "FOa1_S08_A_I08",
+      "FOa1_S08_A_I10",
+      "FOa1_S08_A_Sequence01"
+    ],
+    "Objectives": [
+      "Follow the wolf",
+      "Talk to the wolf",
+      "Search for the captured wolves",
+      "Defeat the illager poachers",
+      "Return to the pet wolf",
+      "Follow the wolf",
+      "Talk to the wolf",
+      "Climb down the well",
+      "Defeat the illager poachers",
+      "Return to the pet wolf"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/part-of-the-pack"
+  },
+  {
+    "Id": "FOa1_S10_A",
+    "Name": "The Cleric's Apprentice",
+    "Description": "The villagers of Little Howl are getting sick from eating plants that grew near the sculk. The Cleric's Apprentice had a crazy idea about how to cure the sickness and ran out to gather spider eyes, and now they are missing.",
+    "Area": "Howling Woods",
+    "Repeatable": false,
+    "XPFirst": 550,
+    "XPRepeat": 550,
+    "EmeraldBase": 5,
+    "EmeraldExtra": 5,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.16666666666666666,
+    "Prerequisites": [
+      "CA02_B"
+    ],
+    "Unlocks": [],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.MushroomBoots",
+          "SW.Item.MushroomChest",
+          "SW.Item.MushroomHelmet",
+          "SW.Item.MushroomLeggings"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "",
+        "Label": "One of Mushroom Boots, Mushroom Robe, Mushroom Cap, Mushroom Leggings"
+      }
+    ],
+    "Tasks": [
+      "FOa1_S10_A_E01",
+      "FOa1_S10_A_I01",
+      "FOa1_S10_A_A01",
+      "FOa1_S10_A_I02",
+      "FOa1_S10_A_E02",
+      "FOa1_S10_A_SM01",
+      "FOa1_S10_A_I03",
+      "FOa1_S10_A_I04",
+      "FOa1_S10_A_Sequence01"
+    ],
+    "Objectives": [
+      "Find the Apprentice",
+      "Speak to the Apprentice",
+      "Defeat the spiders",
+      "Rescue the Apprentice",
+      "Find the lost satchel",
+      "Pick up the lost satchel",
+      "Bring the satchel to Little Howl"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/the-clerics-apprentice"
+  },
+  {
+    "Id": "CT_S01_A",
+    "Name": "The Trembling Golem",
+    "Description": "An echo golem has been captured and brought through the portal, only to be robbed of its soul block and left in the dark Howling Woods.",
+    "Area": "",
+    "Repeatable": true,
+    "XPFirst": 550,
+    "XPRepeat": 500,
+    "EmeraldBase": 5,
+    "EmeraldExtra": 5,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.16666666666666666,
+    "Prerequisites": [
+      "CA04"
+    ],
+    "Unlocks": [],
+    "FirstRewards": [],
+    "Rewards": [],
+    "Tasks": [
+      "CT_S01_A_E01",
+      "CT_S01_A_Arena01",
+      "CT_S01_A_I01",
+      "CT_S01_A_E02",
+      "CT_S01_A_I02",
+      "CT_S01_A_Sequence01"
+    ],
+    "Objectives": [
+      "Track down the illagers",
+      "Defeat the illagers",
+      "Pick up the soul block",
+      "Return to the Echo Golem",
+      "Place the soul block"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/the-trembling-golem"
+  },
+  {
+    "Id": "CT_S02_A",
+    "Name": "The Freezing Golem",
+    "Description": "An echo golem has been captured and brought through the portal, only to be robbed of its soul block and left in the freezing cold of the Frozen Highlands.",
+    "Area": "",
+    "Repeatable": false,
+    "XPFirst": 550,
+    "XPRepeat": 550,
+    "EmeraldBase": 5,
+    "EmeraldExtra": 5,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.16666666666666666,
+    "Prerequisites": [
+      "CA05"
+    ],
+    "Unlocks": [],
+    "FirstRewards": [],
+    "Rewards": [],
+    "Tasks": [
+      "CT_S02_A_E01",
+      "CT_S02_A_Arena",
+      "CT_S02_A_I01",
+      "CT_S02_A_E02",
+      "CT_S02_A_I02",
+      "CT_S02_A_Sequence01"
+    ],
+    "Objectives": [
+      "Track down the illagers",
+      "Defeat the illagers",
+      "Pick up the soul block",
+      "Return to the Echo Golem",
+      "Place the soul block"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/the-freezing-golem"
+  },
+  {
+    "Id": "CT_S03_A",
+    "Name": "The Sneezing Golem",
+    "Description": "An echo golem has been captured and brought through the portal, only to be robbed of its soul block and left in Honeycomb Fields to gather dust.",
+    "Area": "",
+    "Repeatable": false,
+    "XPFirst": 550,
+    "XPRepeat": 550,
+    "EmeraldBase": 5,
+    "EmeraldExtra": 5,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.16666666666666666,
+    "Prerequisites": [
+      "CA04"
+    ],
+    "Unlocks": [],
+    "FirstRewards": [],
+    "Rewards": [],
+    "Tasks": [
+      "CT_S03_A_E01",
+      "CT_S03_A_Arena01",
+      "CT_S03_A_I01",
+      "CT_S03_A_E02",
+      "CT_S03_A_I02",
+      "CT_S03_A_Sequence01"
+    ],
+    "Objectives": [
+      "Track down the illagers",
+      "Defeat the illagers",
+      "Pick up the soul block",
+      "Return to the Echo Golem",
+      "Place the soul block"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/the-sneezing-golem"
+  },
+  {
+    "Id": "CT_S04_A",
+    "Name": "The Rusting Golem",
+    "Description": "An echo golem has been captured and brought through the portal, only to be robbed of its soul block and left soaking wet in Rainy Plains.",
+    "Area": "",
+    "Repeatable": false,
+    "XPFirst": 550,
+    "XPRepeat": 550,
+    "EmeraldBase": 5,
+    "EmeraldExtra": 5,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.16666666666666666,
+    "Prerequisites": [
+      "CA07"
+    ],
+    "Unlocks": [],
+    "FirstRewards": [],
+    "Rewards": [],
+    "Tasks": [
+      "CT_S04_A_E01",
+      "CT_S04_A_Arena01",
+      "CT_S04_A_I01",
+      "CT_S04_A_E02",
+      "CT_S04_A_I02",
+      "CT_S04_A_Sequence01"
+    ],
+    "Objectives": [
+      "Track down the illagers",
+      "Defeat the illagers",
+      "Pick up the soul block",
+      "Return to the Echo Golem",
+      "Place the soul block"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/the-rusting-golem"
+  },
+  {
+    "Id": "PLa1_S04_A",
+    "Name": "Keeper of the Bees",
+    "Description": "The patches of sculk that have spread from the illager rifts are poisoning the flowers nearby and risk making the poor bees sick.",
+    "Area": "Honeycomb Fields",
+    "Repeatable": false,
+    "XPFirst": 550,
+    "XPRepeat": 550,
+    "EmeraldBase": 5,
+    "EmeraldExtra": 5,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.16666666666666666,
+    "Prerequisites": [
+      "CA01"
+    ],
+    "Unlocks": [],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.HoneyHelmet_Unique"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Hivemind Hardhat"
+      },
+      {
+        "Tags": [
+          "SW.Item.Sword",
+          "SW.Item.Mace",
+          "SW.Item.Rapier",
+          "SW.Item.Greatsword",
+          "SW.Item.Sickles",
+          "SW.Item.Bow",
+          "SW.Item.Powerbow",
+          "SW.Item.Crossbow",
+          "SW.Item.Artifact.PoisonBracelet",
+          "SW.Item.Artifact.FightersFife",
+          "SW.Item.Artifact.RallyingHorn",
+          "SW.Item.Artifact.WardingChimes",
+          "SW.Item.Artifact.CorruptedBeacon",
+          "SW.Item.Artifact.Satchel.Freezing",
+          "SW.Item.Artifact.Honeypot",
+          "SW.Item.Artifact.CreeperCandle",
+          "SW.Item.Artifact.FireworkQuiver"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "One special item from Honeycomb Fields"
+      }
+    ],
+    "Tasks": [
+      "PLa1_S04_A_E01",
+      "PLa1_S04_A_Standard01",
+      "PLa1_S04_A_I01",
+      "PLa1_S04_A_I02",
+      "PLa1_S04_A_I03",
+      "PLa1_S04_A_E06",
+      "PLa1_S04_A_I12",
+      "PLa1_S04_A_Sequence02",
+      "PLa1_S04_A_E02",
+      "PLa1_S04_A_SM01",
+      "PLa1_S04_A_K01",
+      "PLa1_S04_A_I04",
+      "PLa1_S04_A_E03",
+      "PLa1_S04_A_SM02",
+      "PLa1_S04_A_K02",
+      "PLa1_S04_A_I05",
+      "PLa1_S04_A_E04",
+      "PLa1_S04_A_SM03",
+      "PLa1_S04_A_K03",
+      "PLa1_S04_A_I06",
+      "PLa1_S04_A_E05",
+      "PLa1_S04_A_SM04",
+      "PLa1_S04_A_K04",
+      "PLa1_S04_A_I07",
+      "PLa1_S04_A_Standard02",
+      "PLa1_S04_A_I08",
+      "PLa1_S04_A_I09",
+      "PLa1_S04_A_I10",
+      "PLa1_S04_A_MT01",
+      "PLa1_S04_A_I11",
+      "PLa1_S04_A_Sequence01"
+    ],
+    "Objectives": [
+      "Find planks for the beehives",
+      "Return to the Beekeeper",
+      "Speak to the Beekeeper",
+      "Find a spot to build beehives",
+      "Defeat the monsters",
+      "Find a spot to build beehives",
+      "Defeat the monsters",
+      "Assess the area",
+      "Find a spot to build beehives",
+      "Defeat the monsters",
+      "Assess the area",
+      "Find a spot to build beehives",
+      "Defeat the mobs",
+      "Assess the area",
+      "Speak to the Beekeeper"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/keeper-of-the-bees"
+  },
+  {
+    "Id": "PLa1_S08_A",
+    "Name": "The Creeper Candle Conspiracy",
+    "Description": "The Farmer is waiting for their friend, the Candlemaker, who has just crafted a new type of candle with explosive qualities and is excited to show it off. However, over the last few days, the Candlemaker has felt as though someone is spying on them, planning to steal the candles.",
+    "Area": "Honeycomb Fields",
+    "Repeatable": false,
+    "XPFirst": 550,
+    "XPRepeat": 550,
+    "EmeraldBase": 5,
+    "EmeraldExtra": 5,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.16666666666666666,
+    "Prerequisites": [
+      "CA01"
+    ],
+    "Unlocks": [],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.Artifact.CreeperCandle"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "Rare",
+        "Label": "Creeper Candle"
+      }
+    ],
+    "Tasks": [
+      "PLa1_S08_A_E01",
+      "PLa1_S08_A_I01",
+      "PLa1_S08_A_Sequence06",
+      "PLa1_S08_A_E09",
+      "PLa1_S08_A_SM05",
+      "PLa1_S08_A_K05",
+      "PLa1_S08_A_I12",
+      "PLa1_S08_A_E02",
+      "PLa1_S08_A_I02",
+      "PLa1_S08_A_E03",
+      "PLa1_S08_A_AS01",
+      "PLa1_S08_A_I03",
+      "PLa1_S08_A_Sequence02",
+      "PLa1_S08_A_Sequence03",
+      "PLa1_S08_A_E04",
+      "PLa1_S08_A_SM02",
+      "PLa1_S08_A_K02",
+      "PLa1_S08_A_I04",
+      "PLa1_S08_A_Sequence04",
+      "PLa1_S08_A_E05",
+      "PLa1_S08_A_SM03",
+      "PLa1_S08_A_K03",
+      "PLa1_S08_A_I05",
+      "PLa1_S08_A_Sequence05",
+      "PLa1_S08_A_E06",
+      "PLa1_S08_A_SM04",
+      "PLa1_S08_A_K04",
+      "PLa1_S08_A_I06",
+      "PLa1_S08_A_E07",
+      "PLa1_S08_A_Standard01",
+      "PLa1_S08_A_I08",
+      "PLa1_S08_A_I09",
+      "PLa1_S08_A_I10",
+      "PLa1_S08_A_I11",
+      "PLa1_S08_A_A01",
+      "PLa1_S08_A_E08",
+      "PLa1_S08_A_I07",
+      "PLa1_S08_A_Sequence01"
+    ],
+    "Objectives": [
+      "Check in on the Candlemaker",
+      "Speak to the Candlemaker",
+      "Head to the Candlemaker's workshop",
+      "Defeat the ambush",
+      "Collect the cellar key",
+      "Find the food cellar",
+      "Open the food cellar",
+      "Enter the food cellar",
+      "Defeat the illager ambush",
+      "Inspect the map",
+      "Find the first Creeper Candle",
+      "Defeat the illagers",
+      "Defuse the Creeper Candle",
+      "Find the second Creeper Candle",
+      "Defeat the illagers",
+      "Defuse the Creeper Candle",
+      "Find the third Creeper Candle",
+      "Defeat the illagers",
+      "Defuse the Creeper Candle",
+      "Find the last Creeper Candle",
+      "Defeat the illager ambush",
+      "Return to the Candlemaker",
+      "Speak to the Candlemaker"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/the-creeper-candle-conspiracy"
+  },
+  {
+    "Id": "DEa1_S13_A",
+    "Name": "The Fight at the End of the Tunnel",
+    "Description": "The Miner escaped after being held captive and forced to dig a tunnel.",
+    "Area": "Frozen Highlands",
+    "Repeatable": false,
+    "XPFirst": 2750,
+    "XPRepeat": 2750,
+    "EmeraldBase": 12,
+    "EmeraldExtra": 12,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.5,
+    "Prerequisites": [
+      "CA05"
+    ],
+    "Unlocks": [],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.Pickaxe"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "Pickaxe"
+      },
+      {
+        "Tags": [
+          "SW.Item.FrostRimeBoots",
+          "SW.Item.FrostRimeChest",
+          "SW.Item.FrostRimeHelmet",
+          "SW.Item.FrostRimeLeggings"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "",
+        "Label": "One of Steel Wool Boots, Steel Wool Sweater, Steel Wool Cap, Steel Wool Leggings"
+      }
+    ],
+    "Tasks": [
+      "DEa1_S13_A_SM01",
+      "DEa1_S13_A_SM02",
+      "DEa1_S13_A_K01",
+      "DEa1_S13_A_I01",
+      "DEa1_S13_A_E02",
+      "DEa1_S13_A_Standard01",
+      "DEa1_S13_A_I02",
+      "DEa1_S13_A_I03",
+      "DEa1_S13_A_I04",
+      "DEa1_S13_A_I05",
+      "DEa1_S13_A_I06",
+      "DEa1_S13_A_I07",
+      "DEa1_S13_A_E03",
+      "DEa1_S13_A_E04",
+      "DEa1_S13_A_I08",
+      "DEa1_S13_A_E05",
+      "DEa1_S13_A_E06",
+      "DEa1_S13_A_E07",
+      "DEa1_S13_A_E08",
+      "DEa1_S13_A_AS01",
+      "DEa1_S13_A_E09",
+      "DEa1_S13_A_I09",
+      "DEa1_S13_A_Sequence01"
+    ],
+    "Objectives": [
+      "Defeat the illagers",
+      "Speak to the Miner",
+      "Climb the mountainside",
+      "Return to the fortress",
+      "Enter the fortress",
+      "Check on the rescued miners",
+      "Find the door to the passageway",
+      "Find the secret passageway",
+      "Navigate the secret passageway",
+      "Find the illager troops",
+      "Defeat the illager troops",
+      "Return to the miners",
+      "Speak to the Miner"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/the-fight-at-the-end-of-the-tunnel"
+  },
+  {
+    "Id": "DEa1_S12_A",
+    "Name": "Illager Intelligence",
+    "Description": "The Librarian was looking for some lavatory reading in the library towers, which are still occupied by illagers. There, they overheard the illagers discussing something they were looking for in the old ruins, where they say the Arch-Illager once used to conduct experiments.",
+    "Area": "Frozen Highlands",
+    "Repeatable": false,
+    "XPFirst": 2750,
+    "XPRepeat": 2750,
+    "EmeraldBase": 12,
+    "EmeraldExtra": 12,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.5,
+    "Prerequisites": [
+      "CA05"
+    ],
+    "Unlocks": [],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.Talisman.StatusBuff"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Sculk Badge"
+      }
+    ],
+    "Tasks": [
+      "DEa1_S12_A_E01",
+      "DEa1_S12_A_Standard01",
+      "DEa1_S12_A_I01",
+      "DEa1_S12_A_Arena03",
+      "DEa1_S12_A_I11",
+      "DEa1_S12_A_Standard02",
+      "DEa1_S12_A_Sequence02",
+      "DEa1_S12_A_E03",
+      "DEa1_S12_A_E10",
+      "DEa1_S12_A_E04",
+      "DEa1_S12_A_Arena01",
+      "DEa1_S12_A_I05",
+      "DEa1_S12_A_Sequence03",
+      "DEa1_S12_A_E05",
+      "DEa1_S12_A_E06",
+      "DEa1_S12_A_E11",
+      "DEa1_S12_A_Arena02",
+      "DEa1_S12_A_I06",
+      "DEa1_S12_A_Sequence04",
+      "DEa1_S12_A_E07",
+      "DEa1_S12_A_E08",
+      "DEa1_S12_A_SM01",
+      "DEa1_S12_A_SM02",
+      "DEa1_S12_A_I07",
+      "DEa1_S12_A_E09",
+      "DEa1_S12_A_Sequence05",
+      "DEa1_S12_A_I08",
+      "DEa1_S12_A_I09",
+      "DEa1_S12_A_I10",
+      "DEa1_S12_A_Arena04",
+      "DEa1_S12_A_Sequence01"
+    ],
+    "Objectives": [
+      "Head to Archie's Ruins",
+      "Defeat the illager ambush",
+      "Investigate the dropped paper",
+      "Ambush",
+      "Ambush",
+      "Return to Archie's Ruins",
+      "Defeat the Sculk Monstrosity"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/illager-intelligence"
+  },
+  {
+    "Id": "DEa1_S14_A",
+    "Name": "Gone Fishing",
+    "Description": "The Fisher left their fishing equipment in the ice caves and now the illagers have set up their new base in there.",
+    "Area": "Frozen Highlands",
+    "Repeatable": false,
+    "XPFirst": 550,
+    "XPRepeat": 550,
+    "EmeraldBase": 5,
+    "EmeraldExtra": 5,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.16666666666666666,
+    "Prerequisites": [
+      "CA05"
+    ],
+    "Unlocks": [],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.Talisman.DropChance"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Looter's Charm"
+      }
+    ],
+    "Tasks": [
+      "DEa1_S14_A_E01",
+      "DEa1_S14_A_E02",
+      "DEa1_S14_A_E03",
+      "DEa1_S14_A_I01",
+      "DEa1_S14_A_E04",
+      "DEa1_S14_A_E05",
+      "DEa1_S14_A_Arena01",
+      "DEa1_S14_A_I02",
+      "DEa1_S14_A_E06",
+      "DEa1_S14_A_I03",
+      "DEa1_S14_A_E07",
+      "DEa1_S14_A_E08",
+      "DEa1_S14_A_Arena02",
+      "DEa1_S14_A_Standard01",
+      "DEa1_S14_A_I04",
+      "DEa1_S14_A_I05",
+      "DEa1_S14_A_I06",
+      "DEa1_S14_A_E10",
+      "DEa1_S14_A_I07",
+      "DEa1_S14_A_Sequence01"
+    ],
+    "Objectives": [
+      "Head to the ice caves",
+      "Find the ice caves",
+      "Open the gate",
+      "Find the broken shipwreck",
+      "Search for the spare key",
+      "Defeat the illagers",
+      "Pick up the key",
+      "Return to the ice caves",
+      "Unlock the gate",
+      "Enter the ice caves",
+      "Find the fishing equipment",
+      "Defeat the ambush",
+      "Return to the Fisher",
+      "Speak to the Fisher"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/gone-fishing"
+  },
+  {
+    "Id": "MEa1_S05_A",
+    "Name": "Rage of the Sifters",
+    "Description": "The Singer is worried about the sifters that roam the wild meadows nearby. They have been driven mad by the presence of the invasive illagers.",
+    "Area": "Singer's Meadow",
+    "Repeatable": false,
+    "XPFirst": 550,
+    "XPRepeat": 550,
+    "EmeraldBase": 5,
+    "EmeraldExtra": 5,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.16666666666666666,
+    "Prerequisites": [
+      "CA08"
+    ],
+    "Unlocks": [],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.WellspringBoots",
+          "SW.Item.WellspringChest",
+          "SW.Item.WellspringHelmet",
+          "SW.Item.WellspringLeggings"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "",
+        "Label": "One of Sifter Boots, Sifter Robe, Sifter Hood, Sifter Leggings"
+      }
+    ],
+    "Tasks": [
+      "MEa1_S05_A_E01",
+      "MEa1_S05_A_I01",
+      "MEa1_S05_A_Standard01",
+      "MEa1_S05_A_Sequence02",
+      "MEa1_S05_A_I02",
+      "MEa1_S05_A_Arena01",
+      "MEa1_S05_A_Sequence03",
+      "MEa1_S05_A_I03",
+      "MEa1_S05_A_Arena02",
+      "MEa1_S05_A_Sequence04",
+      "MEa1_S05_A_I05",
+      "MEa1_S05_A_Arena03Gateless",
+      "MEa1_S05_A_E02",
+      "MEa1_S05_A_I06",
+      "MEa1_S05_A_Arena03",
+      "MEa1_S05_A_E03",
+      "MEa1_S05_A_I07",
+      "MEa1_S05_A_Sequence01"
+    ],
+    "Objectives": [
+      "Head to the wild meadows",
+      "Speak to the Echo Golem",
+      "Ambush",
+      "Ambush",
+      "Ambush",
+      "Find the final banner",
+      "Rip out the illager roots",
+      "Defeat the ambush",
+      "Return to the Singer",
+      "Speak to the Singer"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/rage-of-the-sifters"
+  },
+  {
+    "Id": "MEa1_S06_A",
+    "Name": "Wobble Run",
+    "Description": "The Echo Golem was watching over the wobbles when they all got scared and bounced away.",
+    "Area": "Singer's Meadow",
+    "Repeatable": false,
+    "XPFirst": 1100,
+    "XPRepeat": 1100,
+    "EmeraldBase": 8,
+    "EmeraldExtra": 8,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.375,
+    "Prerequisites": [
+      "CA08"
+    ],
+    "Unlocks": [],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.Talisman.Wobble"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Wobblestone"
+      }
+    ],
+    "Tasks": [
+      "MEa1_S06_A_E06",
+      "MEa1_S06_A_Selection04",
+      "MEa1_S06_A_Standard04",
+      "MEa1_S06_A_I12",
+      "false04",
+      "MEa1_S06_A_I13",
+      "MEa1_S06_A_Follow01",
+      "MEa1_S06_A_I14",
+      "MEa1_S06_A_E01",
+      "MEa1_S06_A_Selection01",
+      "MEa1_S06_A_Standard01",
+      "MEa1_S06_A_I01",
+      "MEa1_S06_A_I02",
+      "false01",
+      "MEa1_S06_A_I03",
+      "MEa1_S06_A_E02",
+      "MEa1_S06_A_Selection02",
+      "MEa1_S06_A_Standard02",
+      "MEa1_S06_A_I04",
+      "MEa1_S06_A_I05",
+      "false02",
+      "MEa1_S06_A_I06",
+      "MEa1_S06_A_E03",
+      "MEa1_S06_A_Selection03",
+      "MEa1_S06_A_Standard03",
+      "MEa1_S06_A_I07",
+      "MEa1_S06_A_I08",
+      "false03",
+      "MEa1_S06_A_I09",
+      "MEa1_S06_A_E04",
+      "MEa1_S06_A_I10",
+      "MEa1_S06_A_E05",
+      "MEa1_S06_A_SM01",
+      "MEa1_S06_A_K01",
+      "MEa1_S06_A_I11",
+      "MEa1_S06_A_Sequence01"
+    ],
+    "Objectives": [
+      "Find the hiding wobble",
+      "Lead the wobble to the Echo Golem",
+      "Speak to the Echo Golem",
+      "Find the wobbles",
+      "Return to the Echo Golem",
+      "Speak to the Echo Golem",
+      "Find the last wobble",
+      "Defeat the sculkers",
+      "Speak to the Echo Golem"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/wobble-run"
+  },
+  {
+    "Id": "MEa2_S02_A",
+    "Name": "A Friend till the End",
+    "Description": "On your quest to destroy the portal, the Scared Golem sacrificed their soul block for you.",
+    "Area": "Lullaby Hills",
+    "Repeatable": false,
+    "XPFirst": 550,
+    "XPRepeat": 550,
+    "EmeraldBase": 5,
+    "EmeraldExtra": 5,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.16666666666666666,
+    "Prerequisites": [
+      "CA10"
+    ],
+    "Unlocks": [
+      "MEa2_S03_A"
+    ],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.Talisman.Prickle"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Prickle's Mark"
+      }
+    ],
+    "Tasks": [],
+    "Objectives": [
+      "Find the soul block",
+      "Collect the soul block",
+      "Return to the Echo Golem",
+      "Place the soul block",
+      "Ambush",
+      "Ambush",
+      "Ambush",
+      "Return to the Echo Golem",
+      "Speak to the Echo Golem"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/a-friend-till-the-end"
+  },
+  {
+    "Id": "MEa2_S03_A",
+    "Name": "Lonesome in Lullaby Hills",
+    "Description": "The illagers stole all the soul blocks from the echo golems of Lullaby Hills and took them to their fortress on the other side of the chasm. Maybe the soul blocks are still there.",
+    "Area": "Lullaby Hills",
+    "Repeatable": false,
+    "XPFirst": 550,
+    "XPRepeat": 550,
+    "EmeraldBase": 5,
+    "EmeraldExtra": 5,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.16666666666666666,
+    "Prerequisites": [
+      "MEa2_S02_A"
+    ],
+    "Unlocks": [],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.CurvedGreatsword_Unique1"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Lullaby Blade"
+      }
+    ],
+    "Tasks": [],
+    "Objectives": [
+      "Reach the illager stronghold",
+      "Ambush",
+      "Ambush",
+      "Ambush",
+      "Ambush",
+      "Return to the Echo Golem",
+      "Speak to the Echo Golem"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/lonesome-in-lullaby-hills"
+  },
+  {
+    "Id": "CAa1_S03_A",
+    "Name": "Breaking Camps",
+    "Description": "The illagers are setting up camps too close to the Echo Den and they keep bothering the golems and chasing them around.",
+    "Area": "Humbler Huskland",
+    "Repeatable": false,
+    "XPFirst": 2750,
+    "XPRepeat": 2750,
+    "EmeraldBase": 12,
+    "EmeraldExtra": 12,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.5,
+    "Prerequisites": [
+      "CA09"
+    ],
+    "Unlocks": [],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.Powerbow_Unique1"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Paragon"
+      },
+      {
+        "Tags": [
+          "SW.Item.Talisman.ArtifactCooldown"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Essence of Efficiency"
+      }
+    ],
+    "Tasks": [],
+    "Objectives": [
+      "Ambush",
+      "Ambush",
+      "Ambush",
+      "Ambush",
+      "Return to the Echo Golem",
+      "Speak to the Echo Golem"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/breaking-camps"
+  },
+  {
+    "Id": "CAa1_S02_A",
+    "Name": "A Dip in Ichor Springs",
+    "Description": "With all the disharmony lately, some echo golems were growing weak and wobbled off towards the ichor springs to recharge their soul blocks. Three of them have now gone missing, and their friend worries they may have run out of power on the way.",
+    "Area": "Humbler Huskland",
+    "Repeatable": false,
+    "XPFirst": 550,
+    "XPRepeat": 550,
+    "EmeraldBase": 5,
+    "EmeraldExtra": 5,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.16666666666666666,
+    "Prerequisites": [
+      "CA09"
+    ],
+    "Unlocks": [],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.MysticBoots_Unique",
+          "SW.Item.MysticChest_Unique",
+          "SW.Item.MysticHelmet_Unique",
+          "SW.Item.MysticLeggings_Unique"
+        ],
+        "Weights": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "Rarity": "",
+        "Label": "One of Oracle Sandals, Oracle Mantle, Oracle Crown, Oracle Tights"
+      }
+    ],
+    "Tasks": [],
+    "Objectives": [
+      "Visit Ichor Ponds",
+      "Visit Sculker Springs",
+      "Return to the Echo Den",
+      "Speak to the Echo Golem"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/a-dip-in-ichor-springs"
+  },
+  {
+    "Id": "PLa2_S15_A",
+    "Name": "Recycling Your Monstrosity",
+    "Description": "The Inventor in Puddle Pond wants you to pursue the illagers who scavenged the Supreme Evoker's Monstrosity and stop them from transporting the copper out of Rainy Plains.",
+    "Area": "Rainy Plains",
+    "Repeatable": false,
+    "XPFirst": 550,
+    "XPRepeat": 550,
+    "EmeraldBase": 5,
+    "EmeraldExtra": 5,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.16666666666666666,
+    "Prerequisites": [
+      "CA07"
+    ],
+    "Unlocks": [],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.CurvedLongsword_Unique1"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Pride of the Plains"
+      }
+    ],
+    "Tasks": [
+      "PLa2_S15_A_Sequence02",
+      "PLa2_S15_A_E01",
+      "PLa2_S15_A_SM01",
+      "PLa2_S15_A_K01",
+      "PLa2_S15_A_I01",
+      "PLa2_S15_A_Sequence03",
+      "PLa2_S15_A_E02",
+      "PLa2_S15_A_SM02",
+      "PLa2_S15_A_K02",
+      "PLa2_S15_A_I02",
+      "PLa2_S15_A_E03",
+      "PLa2_S15_A_AS01",
+      "PLa2_S15_A_I04",
+      "PLa2_S15_A_I05",
+      "PLa2_S15_A_Sequence01"
+    ],
+    "Objectives": [
+      "Pursue the illager convoy",
+      "Defeat the illagers",
+      "Search the copper barrel",
+      "Pursue the illager convoy",
+      "Defeat the illagers",
+      "Search the copper barrel",
+      "Pursue the illager convoy",
+      "Defeat the illagers",
+      "Search the copper barrel",
+      "Bring the copper to the Inventor"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/recycling-your-monstrosity"
+  },
+  {
+    "Id": "PLa2_S16_A",
+    "Name": "Wildflower Warrior",
+    "Description": "A villager in Puddle Pond has asked you to look for the Gatherer who still hasn't returned from picking flowers.",
+    "Area": "Rainy Plains",
+    "Repeatable": false,
+    "XPFirst": 550,
+    "XPRepeat": 550,
+    "EmeraldBase": 5,
+    "EmeraldExtra": 5,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.16666666666666666,
+    "Prerequisites": [
+      "CA07"
+    ],
+    "Unlocks": [],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.Talisman.Healing"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Healing Heart"
+      }
+    ],
+    "Tasks": [
+      "PLa2_S16_A_E05",
+      "PLa2_S16_A_I10",
+      "PLa2_S16_A_Sequence02",
+      "PLa2_S16_A_E01",
+      "PLa2_S16_A_Standard04",
+      "PLa2_S16_A_SM08",
+      "PLa2_S16_A_SM01",
+      "PLa2_S16_A_K01",
+      "PLa2_S16_A_Standard01",
+      "PLa2_S16_A_I02",
+      "PLa2_S16_A_I03",
+      "PLa2_S16_A_I14",
+      "PLa2_S16_A_Sequence03",
+      "PLa2_S16_A_E02",
+      "PLa2_S16_A_Standard05",
+      "PLa2_S16_A_SM05",
+      "PLa2_S16_A_SM02",
+      "PLa2_S16_A_K02",
+      "PLa2_S16_A_Standard02",
+      "PLa2_S16_A_I06",
+      "PLa2_S16_A_I07",
+      "PLa2_S16_A_I11",
+      "PLa2_S16_A_I12",
+      "PLa2_S16_A_Sequence04",
+      "PLa2_S16_A_E03",
+      "PLa2_S16_A_Standard06",
+      "PLa2_S16_A_SM06",
+      "PLa2_S16_A_SM03",
+      "PLa2_S16_A_SM07",
+      "PLa2_S16_A_K03",
+      "PLa2_S16_A_Standard03",
+      "PLa2_S16_A_I08",
+      "PLa2_S16_A_I09",
+      "PLa2_S16_A_I13",
+      "PLa2_S16_A_I04",
+      "PLa2_S16_A_F01",
+      "PLa2_S16_A_SM04",
+      "PLa2_S16_A_K04",
+      "PLa2_S16_A_F02",
+      "PLa2_S16_A_I05",
+      "PLa2_S16_A_Sequence01"
+    ],
+    "Objectives": [
+      "Find the lost Gatherer",
+      "Speak to the Gatherer",
+      "Find some pretty flowers",
+      "Defeat the ravagers",
+      "Find some pretty flowers",
+      "Defeat the ravagers",
+      "Find some pretty flowers",
+      "Defeat the ravagers",
+      "Bring flowers to the Gatherer",
+      "Lead the Gatherer to home",
+      "Defeat the illagers",
+      "Lead the Gatherer home",
+      "Speak to the Gatherer"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/wildflower-warrior"
+  },
+  {
+    "Id": "PLa2_S17_A",
+    "Name": "Illegal Illager Trials",
+    "Description": "The villagers of Puddle Pond have heard rumors that a group of illagers have continued the Supreme Evoker's soul corrupting experiments. Except now, with no more monsters or villagers to use as test subjects, they have started experimenting on themselves!",
+    "Area": "Rainy Plains",
+    "Repeatable": false,
+    "XPFirst": 550,
+    "XPRepeat": 550,
+    "EmeraldBase": 5,
+    "EmeraldExtra": 5,
+    "EmeraldChance": 0.25,
+    "BlockChance": 0.16666666666666666,
+    "Prerequisites": [
+      "CA07"
+    ],
+    "Unlocks": [],
+    "FirstRewards": [],
+    "Rewards": [
+      {
+        "Tags": [
+          "SW.Item.Artifact.CorruptedSeeds"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "Special",
+        "Label": "Corrupted Seeds"
+      },
+      {
+        "Tags": [
+          "SW.Item.Talisman.RollingCooldown"
+        ],
+        "Weights": [
+          1
+        ],
+        "Rarity": "",
+        "Label": "Armadillo Amulet"
+      }
+    ],
+    "Tasks": [
+      "PLa2_S17_A_E01",
+      "PLa2_S17_A_I01",
+      "PLa2_S17_A_MT01",
+      "PLa2_S17_A_I03",
+      "PLa2_S17_A_AS01",
+      "PLa2_S17_A_Sequence02",
+      "PLa2_S17_A_E02",
+      "PLa2_S17_A_SM01",
+      "PLa2_S17_A_SM02",
+      "PLa2_S17_A_K01",
+      "PLa2_S17_A_Sequence03",
+      "PLa2_S17_A_E03",
+      "PLa2_S17_A_SM03",
+      "PLa2_S17_A_SM04",
+      "PLa2_S17_A_K02",
+      "PLa2_S17_A_I02",
+      "PLa2_S17_A_Sequence01"
+    ],
+    "Objectives": [
+      "Head to the Red Tower",
+      "Investigate the tower",
+      "Free the captured Villager",
+      "Defeat the illagers",
+      "Track the soul corrupted illagers",
+      "Defeat the soul corrupted illagers",
+      "Track the soul corrupted illagers",
+      "Defeat the soul corrupted illagers",
+      "Return to Puddle Pond"
+    ],
+    "Source": "https://www.dungeons.tools/2/quests/illegal-illager-trials"
+  }
+]

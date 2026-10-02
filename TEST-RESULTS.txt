@@ -1,0 +1,329 @@
+MCD2SaveEdit 0.3.0 preview
+Automated tests on copied/synthetic fixtures. Live game loading and synchronization are not tested.
+
+PASS World catalogue has Overworld, Sift and 42 distinct published quests
+PASS Both original map textures and all marker icons are embedded
+PASS Every fixed and regional quest reward resolves to a native gear definition
+PASS Unique quest rewards use native unique variants: CA00
+PASS Reward construction and quest-state round-trip: Escape from Squid Coast
+PASS All initialized tasks finish: CA00
+PASS Second claim rejected: CA00
+PASS Second claim leaves XP, currency and items unchanged: CA00
+PASS Unique quest rewards use native unique variants: CA01
+PASS Reward construction and quest-state round-trip: The Illagers from the Rift
+PASS All initialized tasks finish: CA01
+PASS Second claim rejected: CA01
+PASS Second claim leaves XP, currency and items unchanged: CA01
+PASS Unique quest rewards use native unique variants: CA01_B
+PASS Reward construction and quest-state round-trip: The Lost Merchant
+PASS All initialized tasks finish: CA01_B
+PASS Second claim rejected: CA01_B
+PASS Second claim leaves XP, currency and items unchanged: CA01_B
+PASS Unique quest rewards use native unique variants: CA02
+PASS Reward construction and quest-state round-trip: The Silence in Little Howl
+PASS All initialized tasks finish: CA02
+PASS Second claim rejected: CA02
+PASS Second claim leaves XP, currency and items unchanged: CA02
+PASS Unique quest rewards use native unique variants: CA02_C
+PASS Reward construction and quest-state round-trip: Training with the Enchantsmith
+PASS All initialized tasks finish: CA02_C
+PASS Second claim rejected: CA02_C
+PASS Second claim leaves XP, currency and items unchanged: CA02_C
+PASS Unique quest rewards use native unique variants: CA03
+PASS Reward construction and quest-state round-trip: Down into the Deep Dark
+PASS All initialized tasks finish: CA03
+PASS Second claim rejected: CA03
+PASS Second claim leaves XP, currency and items unchanged: CA03
+PASS Unique quest rewards use native unique variants: CA03_BR
+PASS Reward construction and quest-state round-trip: The Twisted Warden Revived
+PASS All initialized tasks finish: CA03_BR
+PASS Second claim rejected: CA03_BR
+PASS Second claim leaves XP, currency and items unchanged: CA03_BR
+PASS Unique quest rewards use native unique variants: CA02_B
+PASS Reward construction and quest-state round-trip: Corruption in the Woods
+PASS All initialized tasks finish: CA02_B
+PASS Second claim rejected: CA02_B
+PASS Second claim leaves XP, currency and items unchanged: CA02_B
+PASS Unique quest rewards use native unique variants: CA02_B_BR
+PASS Reward construction and quest-state round-trip: The Witch Revived
+PASS All initialized tasks finish: CA02_B_BR
+PASS Second claim rejected: CA02_B_BR
+PASS Second claim leaves XP, currency and items unchanged: CA02_B_BR
+PASS Unique quest rewards use native unique variants: CA04
+PASS Reward construction and quest-state round-trip: The Missing Note Blocks
+PASS All initialized tasks finish: CA04
+PASS Second claim rejected: CA04
+PASS Second claim leaves XP, currency and items unchanged: CA04
+PASS Unique quest rewards use native unique variants: CA05
+PASS Reward construction and quest-state round-trip: Hiking Frozen Highlands
+PASS All initialized tasks finish: CA05
+PASS Second claim rejected: CA05
+PASS Second claim leaves XP, currency and items unchanged: CA05
+PASS Unique quest rewards use native unique variants: CA05_BR
+PASS Reward construction and quest-state round-trip: The Prime Enchanter Revived
+PASS All initialized tasks finish: CA05_BR
+PASS Second claim rejected: CA05_BR
+PASS Second claim leaves XP, currency and items unchanged: CA05_BR
+PASS Unique quest rewards use native unique variants: CA06
+PASS Reward construction and quest-state round-trip: Returning the Note Blocks
+PASS All initialized tasks finish: CA06
+PASS Second claim rejected: CA06
+PASS Second claim leaves XP, currency and items unchanged: CA06
+PASS Unique quest rewards use native unique variants: CA07
+PASS Reward construction and quest-state round-trip: Wading Rainy Plains
+PASS All initialized tasks finish: CA07
+PASS Second claim rejected: CA07
+PASS Second claim leaves XP, currency and items unchanged: CA07
+PASS Unique quest rewards use native unique variants: CA07_BR
+PASS Reward construction and quest-state round-trip: The Copper Monstrosity Revived
+PASS All initialized tasks finish: CA07_BR
+PASS Second claim rejected: CA07_BR
+PASS Second claim leaves XP, currency and items unchanged: CA07_BR
+PASS Unique quest rewards use native unique variants: CA08
+PASS Reward construction and quest-state round-trip: Lost Harmonies
+PASS All initialized tasks finish: CA08
+PASS Second claim rejected: CA08
+PASS Second claim leaves XP, currency and items unchanged: CA08
+PASS Unique quest rewards use native unique variants: CA08_B
+PASS Reward construction and quest-state round-trip: A Monstrosity in the Meadow
+PASS All initialized tasks finish: CA08_B
+PASS Second claim rejected: CA08_B
+PASS Second claim leaves XP, currency and items unchanged: CA08_B
+PASS Unique quest rewards use native unique variants: CA09
+PASS Reward construction and quest-state round-trip: Wrath of the Sculkers
+PASS All initialized tasks finish: CA09
+PASS Second claim rejected: CA09
+PASS Second claim leaves XP, currency and items unchanged: CA09
+PASS Unique quest rewards use native unique variants: CA09_BR
+PASS Reward construction and quest-state round-trip: The Sculk Monstrosity Revived
+PASS All initialized tasks finish: CA09_BR
+PASS Second claim rejected: CA09_BR
+PASS Second claim leaves XP, currency and items unchanged: CA09_BR
+PASS Unique quest rewards use native unique variants: CA10
+PASS Reward construction and quest-state round-trip: The Final Souldown
+PASS All initialized tasks finish: CA10
+PASS Second claim rejected: CA10
+PASS Second claim leaves XP, currency and items unchanged: CA10
+PASS Unique quest rewards use native unique variants: CA10_BR
+PASS Reward construction and quest-state round-trip: The Final Souldown Encore
+PASS All initialized tasks finish: CA10_BR
+PASS Second claim rejected: CA10_BR
+PASS Second claim leaves XP, currency and items unchanged: CA10_BR
+PASS Unique quest rewards use native unique variants: CA10_BR_B
+PASS Reward construction and quest-state round-trip: The Redstone Monstrosity Revived
+PASS All initialized tasks finish: CA10_BR_B
+PASS Second claim rejected: CA10_BR_B
+PASS Second claim leaves XP, currency and items unchanged: CA10_BR_B
+PASS Unique quest rewards use native unique variants: FOa1_S08_A
+PASS Reward construction and quest-state round-trip: Part of the Pack
+PASS All initialized tasks finish: FOa1_S08_A
+PASS Second claim rejected: FOa1_S08_A
+PASS Second claim leaves XP, currency and items unchanged: FOa1_S08_A
+PASS Unique quest rewards use native unique variants: FOa1_S10_A
+PASS Reward construction and quest-state round-trip: The Cleric's Apprentice
+PASS All initialized tasks finish: FOa1_S10_A
+PASS Second claim rejected: FOa1_S10_A
+PASS Second claim leaves XP, currency and items unchanged: FOa1_S10_A
+PASS Unique quest rewards use native unique variants: CT_S01_A
+PASS Reward construction and quest-state round-trip: The Trembling Golem
+PASS All initialized tasks finish: CT_S01_A
+PASS Second claim rejected: CT_S01_A
+PASS Second claim leaves XP, currency and items unchanged: CT_S01_A
+PASS Unique quest rewards use native unique variants: CT_S02_A
+PASS Reward construction and quest-state round-trip: The Freezing Golem
+PASS All initialized tasks finish: CT_S02_A
+PASS Second claim rejected: CT_S02_A
+PASS Second claim leaves XP, currency and items unchanged: CT_S02_A
+PASS Unique quest rewards use native unique variants: CT_S03_A
+PASS Reward construction and quest-state round-trip: The Sneezing Golem
+PASS All initialized tasks finish: CT_S03_A
+PASS Second claim rejected: CT_S03_A
+PASS Second claim leaves XP, currency and items unchanged: CT_S03_A
+PASS Unique quest rewards use native unique variants: CT_S04_A
+PASS Reward construction and quest-state round-trip: The Rusting Golem
+PASS All initialized tasks finish: CT_S04_A
+PASS Second claim rejected: CT_S04_A
+PASS Second claim leaves XP, currency and items unchanged: CT_S04_A
+PASS Unique quest rewards use native unique variants: PLa1_S04_A
+PASS Reward construction and quest-state round-trip: Keeper of the Bees
+PASS All initialized tasks finish: PLa1_S04_A
+PASS Second claim rejected: PLa1_S04_A
+PASS Second claim leaves XP, currency and items unchanged: PLa1_S04_A
+PASS Unique quest rewards use native unique variants: PLa1_S08_A
+PASS Reward construction and quest-state round-trip: The Creeper Candle Conspiracy
+PASS All initialized tasks finish: PLa1_S08_A
+PASS Second claim rejected: PLa1_S08_A
+PASS Second claim leaves XP, currency and items unchanged: PLa1_S08_A
+PASS Unique quest rewards use native unique variants: DEa1_S13_A
+PASS Reward construction and quest-state round-trip: The Fight at the End of the Tunnel
+PASS All initialized tasks finish: DEa1_S13_A
+PASS Second claim rejected: DEa1_S13_A
+PASS Second claim leaves XP, currency and items unchanged: DEa1_S13_A
+PASS Unique quest rewards use native unique variants: DEa1_S12_A
+PASS Reward construction and quest-state round-trip: Illager Intelligence
+PASS All initialized tasks finish: DEa1_S12_A
+PASS Second claim rejected: DEa1_S12_A
+PASS Second claim leaves XP, currency and items unchanged: DEa1_S12_A
+PASS Unique quest rewards use native unique variants: DEa1_S14_A
+PASS Reward construction and quest-state round-trip: Gone Fishing
+PASS All initialized tasks finish: DEa1_S14_A
+PASS Second claim rejected: DEa1_S14_A
+PASS Second claim leaves XP, currency and items unchanged: DEa1_S14_A
+PASS Unique quest rewards use native unique variants: MEa1_S05_A
+PASS Reward construction and quest-state round-trip: Rage of the Sifters
+PASS All initialized tasks finish: MEa1_S05_A
+PASS Second claim rejected: MEa1_S05_A
+PASS Second claim leaves XP, currency and items unchanged: MEa1_S05_A
+PASS Unique quest rewards use native unique variants: MEa1_S06_A
+PASS Reward construction and quest-state round-trip: Wobble Run
+PASS All initialized tasks finish: MEa1_S06_A
+PASS Second claim rejected: MEa1_S06_A
+PASS Second claim leaves XP, currency and items unchanged: MEa1_S06_A
+PASS Unique quest rewards use native unique variants: MEa2_S02_A
+PASS Reward construction and quest-state round-trip: A Friend till the End
+PASS All initialized tasks finish: MEa2_S02_A
+PASS Second claim rejected: MEa2_S02_A
+PASS Second claim leaves XP, currency and items unchanged: MEa2_S02_A
+PASS Unique quest rewards use native unique variants: MEa2_S03_A
+PASS Reward construction and quest-state round-trip: Lonesome in Lullaby Hills
+PASS All initialized tasks finish: MEa2_S03_A
+PASS Second claim rejected: MEa2_S03_A
+PASS Second claim leaves XP, currency and items unchanged: MEa2_S03_A
+PASS Unique quest rewards use native unique variants: CAa1_S03_A
+PASS Reward construction and quest-state round-trip: Breaking Camps
+PASS All initialized tasks finish: CAa1_S03_A
+PASS Second claim rejected: CAa1_S03_A
+PASS Second claim leaves XP, currency and items unchanged: CAa1_S03_A
+PASS Unique quest rewards use native unique variants: CAa1_S02_A
+PASS Reward construction and quest-state round-trip: A Dip in Ichor Springs
+PASS All initialized tasks finish: CAa1_S02_A
+PASS Second claim rejected: CAa1_S02_A
+PASS Second claim leaves XP, currency and items unchanged: CAa1_S02_A
+PASS Unique quest rewards use native unique variants: PLa2_S15_A
+PASS Reward construction and quest-state round-trip: Recycling Your Monstrosity
+PASS All initialized tasks finish: PLa2_S15_A
+PASS Second claim rejected: PLa2_S15_A
+PASS Second claim leaves XP, currency and items unchanged: PLa2_S15_A
+PASS Unique quest rewards use native unique variants: PLa2_S16_A
+PASS Reward construction and quest-state round-trip: Wildflower Warrior
+PASS All initialized tasks finish: PLa2_S16_A
+PASS Second claim rejected: PLa2_S16_A
+PASS Second claim leaves XP, currency and items unchanged: PLa2_S16_A
+PASS Unique quest rewards use native unique variants: PLa2_S17_A
+PASS Reward construction and quest-state round-trip: Illegal Illager Trials
+PASS All initialized tasks finish: PLa2_S17_A
+PASS Second claim rejected: PLa2_S17_A
+PASS Second claim leaves XP, currency and items unchanged: PLa2_S17_A
+PASS Native quest record and rewards survive JSON serialization
+PASS One Undo reverses quest completion, XP and all rewards together
+PASS Quest test setup restores the original copied character
+PASS Uninitialized quest is rejected without invented task IDs
+PASS Currency overflow rejects the complete transaction
+PASS Failed claim leaves the complete draft unchanged
+PASS Quest XP uses per-level threshold, carries XP and synchronizes metadata
+PASS Selected map reveal changes only the requested fog cells
+PASS Map revealing preserves the other region and every quest
+PASS Whole Sift reveal fills the saved region grid
+PASS Out-of-range map reveal is rejected
+PASS Malformed fog byte is rejected
+PASS World tests never modify the supplied character fixture
+PASS Catalogue contains 296 distinct game item IDs
+PASS All 80 catalogue weapons present
+PASS All 152 catalogue armor pieces present
+PASS All 40 artifacts and 24 talismans present
+PASS Every catalogue item has an embedded icon
+PASS Internal weapon ID resolves to the displayed game name
+PASS Every catalogue item builds and round-trips through the save format
+PASS All talismans retain their three tiers and initial effects
+PASS Repeated direct damage edits replace one Sharpness roll instead of stacking duplicates
+PASS Direct damage editing preserves Sculker's Bane fixed soul trait
+PASS Direct bonus uses a known game effect and tier template
+PASS Removing direct damage bonus restores original fixed batches
+PASS Protection UI percentage retains the native negative effect strength
+PASS Incompatible direct combat bonus rejected
+PASS Nonfinite direct damage bonus rejected
+PASS Enchantment picker writes the chosen tier template
+PASS Changing enchantment replaces its batch without stacking another enchantment
+PASS Changing enchantment preserves fixed gear effects
+PASS Null enchantment strength rejected before writing a save
+PASS Real character fixture opens
+PASS Untouched export is byte-for-byte identical
+PASS Gear power changes
+PASS Exact 64-bit metadata survives an edit
+PASS Undo restores all original data
+PASS Redo restores edit
+PASS Unknown format / metadata edits rejected
+PASS Character identity protected
+PASS Invalid stack rejected atomically
+PASS Rejected changes leave no partial edits
+PASS Duplicate JSON keys rejected
+PASS Non-character binary files rejected
+PASS Four independent armor slots round-trip without merging
+PASS Duplicate equipped slot rejected
+PASS Effect records, level and unknown fields round-trip (synthetic)
+PASS Currency edit survives serialization
+PASS Version-14 Xbox container linked to active character blob
+PASS Copied Xbox save: edit, backup, write, reopen
+PASS Game write advances the character revision timestamp
+PASS Pending local edit clears the old cloud blob identity
+PASS Game write publishes a fresh blob and preserves the prior revision
+PASS Xbox index publishes the new active character revision
+PASS Successful save clears dirty state
+PASS Verified original backup: containers.index
+PASS Verified original backup: container.1
+PASS Unrelated container untouched: container.1
+PASS Verified original backup: E294CE31D45440359DDC78E5692F1978
+PASS Unrelated container untouched: E294CE31D45440359DDC78E5692F1978
+PASS Verified original backup: container.1
+PASS Unrelated container untouched: container.1
+PASS Verified original backup: D3055540B48046C0A4A4B4A191823D60
+PASS Unrelated container untouched: D3055540B48046C0A4A4B4A191823D60
+PASS Verified original backup: 8471911500284B54A235C1236475B25C
+PASS Unrelated container untouched: 8471911500284B54A235C1236475B25C
+PASS Verified original backup: container.1
+PASS Unrelated container untouched: container.1
+PASS Verified original backup: 0E1D4E930566451ABE132DF3C2C41A2F
+PASS Unrelated container untouched: 0E1D4E930566451ABE132DF3C2C41A2F
+PASS Verified original backup: container.1
+PASS Unrelated container untouched: container.1
+PASS Verified original backup: ABFF1C5924364543A96308E55C1709E5
+PASS Unrelated container untouched: ABFF1C5924364543A96308E55C1709E5
+PASS Verified original backup: container.24
+PASS Unrelated container untouched: container.24
+PASS Verified original backup: 44FEDD137B97475496D778401E9C9972
+PASS Unrelated container untouched: 44FEDD137B97475496D778401E9C9972
+PASS Verified original backup: container.193
+PASS Unrelated container untouched: container.193
+PASS Concurrent blob change blocks overwrite
+PASS Concurrent Xbox index change blocks overwrite
+PASS Metadata-only Xbox index refresh no longer blocks saving
+PASS Saving resolves and publishes from the rotated active Xbox blob
+PASS Newer character progress requires explicit replacement
+PASS Conflict leaves newer progress intact
+PASS Unmodified exported JSON can be imported to its matching character with backup
+PASS UI model lists all real inventory entries
+PASS Classic inventory displays a tile for every saved item
+PASS Classic loadout displays four separate armor positions
+PASS Classic currency control reads real emeralds
+PASS UI builds compact gear power, level and full-item controls
+PASS UI builds character attributes including emeralds
+PASS UI keeps the four-piece armor loadout
+PASS UI opens real empty effects without fabricating enchantments
+PASS Quest and map editor is available
+PASS Sift map and quest list open without changing the save
+PASS Quest details resolve the actual displayed game name
+PASS Map area details include a separate region reveal action
+PASS Echo Shards control binds to the saved currency
+PASS Picker contains all 296 catalogue gear records
+PASS Picker searches by the in-game unique name
+PASS Picker filters all helmet definitions
+PASS Selected item uses its in-game display name
+PASS Opening every editor leaves the save unchanged
+PASS Item labels and inputs have separate, contained bounds at window width 1180
+PASS Inventory cards stay within the size cap at window width 1180
+PASS Item labels and inputs have separate, contained bounds at window width 1640
+PASS Inventory cards stay within the size cap at window width 1640
+PASS Item labels and inputs have separate, contained bounds at window width 3000
+PASS Inventory cards stay within the size cap at window width 3000
+PASS Resizing and rebuilding item fields leaves character data unchanged
+All checks passed. No live game files were changed. In-game loading / cloud synchronization are not tested.

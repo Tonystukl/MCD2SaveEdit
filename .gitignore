@@ -1,0 +1,10 @@
+**/bin/
+**/obj/
+**/Backups/
+publish/
+*.pdb
+*.dat
+MCD2-character*.json
+Source/Data/Icons/
+Source/Data/Maps/
+Source/Data/App/
